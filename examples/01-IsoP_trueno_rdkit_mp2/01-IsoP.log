@@ -1,0 +1,310 @@
+
+        ***********************************************************************
+                           Generation of Conformers (GeCoS)
+                         -----------------------------------
+                         
+                                    Version 0.1
+                         
+                                  Dr. Javier Ramos
+                          Macromolecular Physics Department
+                    Instituto de Estructura de la Materia (IEM-CSIC)
+                                   Madrid (Spain)
+                                   
+                GeCoS is an open-source python library to quickly generate
+                conformers of small molecules or polymer segments 
+                using RdKit and OpenBabel libraries. Once, the
+                conformers are generated, QM optimizations and subsequent 
+                clustering can be done.
+                
+                This software is distributed under the terms of the
+                GNU General Public License v3.0 (GNU GPLv3). A copy of 
+                the license (LICENSE.txt) is included with this distribution. 
+                
+        ***********************************************************************
+                     
+        
+		******** CREATION OF THE GECOS RDKIT OBJECT ********
+
+		Conformers will be generated with RdKit library (https://www.rdkit.org/docs/GettingStartedInPython.html)
+
+		Molecular file seed  : /home/jramos/PycharmProjects/GeCos/data/IsoP.pdb
+		Bond Perception: True
+
+		Formula          = C10H18
+		Number of atoms  = 28
+		Molecular weight = 138.14 g/mol
+		Rotable bonds    = 7 (include CH3 groups)
+		Number fo rings  = 0
+		******** CREATION OF THE GECOS RDKIT OBJECT ********
+
+
+		**************** GENERATE CONFORMERS ***************
+		 1. Generating 4000 conformers (17-09-2021 13:30:29)
+		 2. Minimizing 4000 conformers. Max_iters = 3000, threshold = 1.0 A (17-09-2021 13:31:01)
+			 Using MMFF forcefield
+		 3. Cluster Conformers (17-09-2021 13:32:00) using rmsd based method
+			4000 conformers generated grouped in 101 clusters (rmsd_threshold= 1.0 angstroms)
+		 4. Get structure of minimum energy for each cluster (17-09-2021 13:32:20)
+
+		 5. Write Conformers to PDB (17-09-2021 13:32:20)
+			Filename: /home/jramos/PycharmProjects/GeCos/examples/01-IsoP_trueno_rdkit_mp2/01-IsoP_cluster_rdkit_optMM_trj.pdb
+		 6. Write Conformers to Gaussian16 (17-09-2021 13:32:20)
+			Inputfiles in 01-IsoP_g16_conformers/ directory
+		**************** GENERATE CONFORMERS ***************
+
+
+		**************** CONFORMER MM ENERGIES ***************
+		Cluster Conformer_ID  MMFF_energy(kcal/mol)  Relative_energy(kcal/mol) Highest energy(kcal/mol) nelements
+		------------------------------------------------------------------------------------------------------------
+		   1        3470             23.24                       0.00                    27.62           33   
+		   2        2636             23.24                       0.00                    27.62           17   
+		   3        1030             23.24                       0.00                    23.87           36   
+		   4        2752             23.24                       0.00                    130.24          82   
+		   5        166              23.24                       0.00                    27.62           27   
+		   6        2780             23.24                       0.00                    23.87           41   
+		   7        3452             23.24                       0.00                    24.54           23   
+		   8        3504             23.24                       0.00                    137.28          35   
+		   9        2954             23.24                       0.00                    24.54           9    
+		  10        203              23.24                       0.00                    125.89          21   
+		  11        3244             23.24                       0.00                    27.62           35   
+		  12        2927             23.24                       0.00                    23.87           21   
+		  13         96              23.24                       0.00                    131.76          7    
+		  14        3577             23.24                       0.00                    23.87           14   
+		  15        406              23.24                       0.00                    121.34          74   
+		  16        2579             23.24                       0.00                    128.81          11   
+		  17        942              23.24                       0.00                    23.76           4    
+		  18        3918             23.24                       0.00                    27.62           33   
+		  19        3829             23.24                       0.00                    27.62           16   
+		  20        2030             23.24                       0.00                    25.40           22   
+		  21        3170             23.24                       0.00                    23.87           7    
+		  22        3477             23.24                       0.00                    23.24           1    
+		  23        1905             23.24                       0.00                    23.87           49   
+		  24        2005             23.24                       0.00                    23.87           14   
+		  25        394              23.24                       0.00                    23.76           3    
+		  26        3138             23.24                       0.00                    122.53          16   
+		  27        3936             23.24                       0.00                    27.62           39   
+		  28        1364             23.24                       0.00                    27.62           20   
+		  29        1339             23.24                       0.00                    23.87           9    
+		  30        1504             23.24                       0.00                    23.24           1    
+		  31        1569             23.24                       0.00                    23.76           5    
+		  32        2655             23.24                       0.00                    24.54           19   
+		  33        2323             23.24                       0.00                    23.87           10   
+		  34        2667             23.24                       0.00                    27.62           3    
+		  35        493              23.24                       0.00                    23.24           1    
+		  36        2821             23.24                       0.00                    23.87           5    
+		  37        2787             23.24                       0.00                    23.24           1    
+		  38        497              23.24                       0.00                    23.76           4    
+		  39        2061             23.24                       0.00                    23.24           1    
+		  40        2798             23.24                       0.00                    23.76           3    
+		  41        1831             23.24                       0.00                    27.62           10   
+		  42        2638             23.24                       0.00                    27.62           23   
+		  43        1352             23.24                       0.00                    23.24           1    
+		  44        518              23.24                       0.00                    23.87           8    
+		  45        608              23.24                       0.00                    23.49           2    
+		  46        1378             23.24                       0.00                    24.54           12   
+		  47        1639             23.24                       0.00                    23.76           3    
+		  48        798              23.24                       0.00                    129.19          3    
+		  49        470              23.24                       0.00                    23.24           1    
+		  50        2319             23.24                       0.00                    23.76           2    
+		  51        2527             23.24                       0.00                    23.24           1    
+		  52         94              23.24                       0.00                    23.24           1    
+		  53        2414             23.24                       0.00                    23.76           4    
+		  54        2201             23.24                       0.00                    27.62           31   
+		  55        2542             23.24                       0.00                    23.24           1    
+		  56        1555             23.24                       0.00                    27.62           6    
+		  57        3422             23.24                       0.00                    23.24           1    
+		  58        334              23.24                       0.00                    23.24           1    
+		  59        1937             23.24                       0.00                    23.87           7    
+		  60        2566             23.24                       0.00                    23.24           1    
+		  61        3916             23.24                       0.00                    23.76           2    
+		  62        536              23.24                       0.00                    23.87           6    
+		  63        3448             23.24                       0.00                    25.40           13   
+		  64        556              23.29                       0.05                    25.49          123   
+		  65        3119             23.29                       0.05                    24.03           55   
+		  66        3226             23.29                       0.05                    128.71          66   
+		  67        3975             23.29                       0.05                    127.51         104   
+		  68        3819             23.29                       0.05                    27.62           46   
+		  69        2967             23.29                       0.05                    25.49           89   
+		  70        1622             23.29                       0.05                    25.49           89   
+		  71        1471             23.29                       0.05                    124.08          88   
+		  72        2536             23.29                       0.05                    132.74          50   
+		  73        2879             23.29                       0.05                    126.06         103   
+		  74        523              23.29                       0.05                    23.71           30   
+		  75        1003             23.29                       0.05                    129.60          49   
+		  76        2297             23.29                       0.05                    23.29           1    
+		  77        2165             23.29                       0.05                    23.71           23   
+		  78        1572             23.29                       0.05                    27.62           18   
+		  79        1348             23.29                       0.05                    24.03           28   
+		  80        2949             23.29                       0.05                    25.49           46   
+		  81        3231             23.29                       0.05                    24.03           16   
+		  82        534              23.29                       0.05                    24.03           10   
+		  83        2203             23.29                       0.05                    24.03           21   
+		  84        2733             23.29                       0.05                    24.03           10   
+		  85        2188             23.29                       0.05                    23.71           3    
+		  86        341              23.29                       0.05                    25.49           9    
+		  87        3875             23.29                       0.05                    23.71           4    
+		  88        2917             23.29                       0.05                    24.54           15   
+		  89        1413             23.29                       0.05                    24.03           19   
+		  90        890              23.29                       0.05                    25.49           11   
+		  91        2337             23.29                       0.05                    23.29           1    
+		  92        2021             23.29                       0.05                    23.29           2    
+		  93        460              23.29                       0.05                    24.03           4    
+		  94        269              23.29                       0.05                    24.03           4    
+		  95        801              23.29                       0.05                    24.03           11   
+		  96        2976             23.29                       0.05                    24.03           13   
+		  97        845              23.29                       0.05                    24.54           19   
+		  98        3559             23.29                       0.05                    23.29           1    
+		  99        1705             23.29                       0.05                    130.76          20   
+		  100       2179             23.29                       0.05                    23.29           1    
+		  101       1867             23.29                       0.05                    181.58         1886  
+		**************** CONFORMER MM ENERGIES ***************
+
+		**************** OPTIMIZE CONFORMERS USING GAUSSIAN16 ***************
+			1. Connected to trueno.csic.es (17-09-2021 13:32:20)
+			   Database /home/jramos/PycharmProjects/GeCos/examples/01-IsoP_trueno_rdkit_mp2/01-IsoP_trueno.db created
+			2. Prepare SLURM script for each conformer (17-09-2021 13:32:20).
+			3. Send input files (com and sh) to server. (17-09-2021 13:32:20)
+			   Prepare and send full.sh script.
+			   Update database.
+			4. Send QM calculations to server. (17-09-2021 13:32:28)
+			5. Close connection
+		**************** OPTIMIZE CONFORMERS USING GAUSSIAN16 ***************
+
+			 :::: Checking start: 17-09-2021 14:46:24
+			 :::: Completed 9 of 101 jobs
+			 :::: Checking end: 17-09-2021 14:46:38
+
+
+			 :::: Checking start: 17-09-2021 14:59:45
+			 :::: Completed 27 of 101 jobs
+			 :::: Checking end: 17-09-2021 15:00:01
+
+
+		**************** SUMMARY ***************
+
+		Localdir                      : /home/jramos/PycharmProjects/GeCos/examples/01-IsoP_trueno_rdkit_mp2
+		Database                      : /home/jramos/PycharmProjects/GeCos/examples/01-IsoP_trueno_rdkit_mp2/01-IsoP_trueno.db
+		Trajectory file MM conformers : 01-IsoP_conf_min_trj.pdb
+		Directory with QM files       : 01-IsoP_g16_conformers/
+
+		#              Name_job               DeltaE_QM(kcal/mol) RMSD(A)  RMSD_incluster(A) Cluster_QM
+		# =============================================================================================
+		        01-IsoP_1352_gaussian                0.00          0.000         0.000           1     
+		        01-IsoP_1364_gaussian                0.00          0.654         0.654           1     
+		        01-IsoP_1378_gaussian                0.00          0.000         0.000           1     
+		        01-IsoP_1504_gaussian                0.00          0.654         0.654           1     
+		        01-IsoP_1555_gaussian                0.00          0.654         0.654           1     
+		        01-IsoP_1639_gaussian                0.00          0.000         0.000           1     
+		        01-IsoP_1831_gaussian                0.00          0.000         0.000           1     
+		        01-IsoP_1905_gaussian                0.00          0.000         0.000           1     
+		        01-IsoP_1937_gaussian                0.00          0.000         0.000           1     
+		        01-IsoP_2030_gaussian                0.00          0.654         0.654           1     
+		        01-IsoP_2201_gaussian                0.00          0.000         0.000           1     
+		        01-IsoP_2319_gaussian                0.00          0.000         0.000           1     
+		        01-IsoP_2527_gaussian                0.00          0.000         0.000           1     
+		        01-IsoP_2542_gaussian                0.00          0.654         0.654           1     
+		        01-IsoP_2579_gaussian                0.00          0.654         0.654           1     
+		        01-IsoP_2655_gaussian                0.00          0.654         0.654           1     
+		        01-IsoP_2780_gaussian                0.00          0.654         0.654           1     
+		        01-IsoP_2787_gaussian                0.00          0.654         0.654           1     
+		        01-IsoP_2927_gaussian                0.00          0.654         0.654           1     
+		        01-IsoP_2954_gaussian                0.00          0.654         0.654           1     
+		        01-IsoP_3244_gaussian                0.00          0.654         0.654           1     
+		        01-IsoP_334_gaussian                 0.00          0.000         0.000           1     
+		        01-IsoP_3422_gaussian                0.00          0.654         0.654           1     
+		        01-IsoP_3452_gaussian                0.00          0.000         0.000           1     
+		        01-IsoP_3477_gaussian                0.00          0.654         0.654           1     
+		        01-IsoP_3916_gaussian                0.00          0.000         0.000           1     
+		        01-IsoP_3918_gaussian                0.00          0.654         0.654           1     
+		        01-IsoP_3936_gaussian                0.00          0.000         0.000           1     
+		        01-IsoP_406_gaussian                 0.00          0.000         0.000           1     
+		        01-IsoP_798_gaussian                 0.00          0.000         0.000           1     
+		        01-IsoP_942_gaussian                 0.00          0.000         0.000           1     
+		        01-IsoP_094_gaussian                 0.00          1.133         0.000           2     
+		        01-IsoP_096_gaussian                 0.00          1.133         0.000           2     
+		        01-IsoP_1030_gaussian                0.00          1.197         0.750           2     
+		        01-IsoP_1339_gaussian                0.00          1.197         0.750           2     
+		        01-IsoP_1569_gaussian                0.00          1.133         0.000           2     
+		        01-IsoP_166_gaussian                 0.00          1.197         0.750           2     
+		        01-IsoP_2005_gaussian                0.00          1.133         0.000           2     
+		        01-IsoP_203_gaussian                 0.00          1.197         0.750           2     
+		        01-IsoP_2061_gaussian                0.00          1.197         0.750           2     
+		        01-IsoP_2323_gaussian                0.00          1.133         0.000           2     
+		        01-IsoP_2414_gaussian                0.00          1.133         0.000           2     
+		        01-IsoP_2566_gaussian                0.00          1.133         0.000           2     
+		        01-IsoP_2636_gaussian                0.00          1.133         0.000           2     
+		        01-IsoP_2638_gaussian                0.00          1.133         0.000           2     
+		        01-IsoP_2667_gaussian                0.00          1.133         0.000           2     
+		        01-IsoP_2752_gaussian                0.00          1.197         0.750           2     
+		        01-IsoP_2798_gaussian                0.00          1.197         0.750           2     
+		        01-IsoP_2821_gaussian                0.00          1.197         0.750           2     
+		        01-IsoP_3138_gaussian                0.00          1.133         0.000           2     
+		        01-IsoP_3170_gaussian                0.00          1.197         0.750           2     
+		        01-IsoP_3448_gaussian                0.00          1.133         0.000           2     
+		        01-IsoP_3470_gaussian                0.00          1.197         0.750           2     
+		        01-IsoP_3504_gaussian                0.00          1.197         0.750           2     
+		        01-IsoP_3577_gaussian                0.00          1.133         0.000           2     
+		        01-IsoP_3829_gaussian                0.00          1.133         0.000           2     
+		        01-IsoP_394_gaussian                 0.00          1.133         0.000           2     
+		        01-IsoP_470_gaussian                 0.00          1.133         0.000           2     
+		        01-IsoP_493_gaussian                 0.00          1.133         0.000           2     
+		        01-IsoP_497_gaussian                 0.00          1.197         0.750           2     
+		        01-IsoP_518_gaussian                 0.00          1.133         0.000           2     
+		        01-IsoP_536_gaussian                 0.00          1.197         0.750           2     
+		        01-IsoP_608_gaussian                 0.00          1.133         0.000           2     
+		        01-IsoP_1003_gaussian                0.20          1.220         0.675           3     
+		        01-IsoP_1348_gaussian                0.20          1.116         0.000           3     
+		        01-IsoP_1471_gaussian                0.20          1.116         0.000           3     
+		        01-IsoP_1622_gaussian                0.20          1.116         0.000           3     
+		        01-IsoP_2165_gaussian                0.20          1.116         0.000           3     
+		        01-IsoP_2203_gaussian                0.20          1.116         0.000           3     
+		        01-IsoP_2967_gaussian                0.20          1.220         0.675           3     
+		        01-IsoP_3226_gaussian                0.20          1.220         0.675           3     
+		        01-IsoP_3231_gaussian                0.20          1.220         0.675           3     
+		        01-IsoP_341_gaussian                 0.20          1.116         0.000           3     
+		        01-IsoP_3975_gaussian                0.20          1.220         0.675           3     
+		        01-IsoP_845_gaussian                 0.20          1.220         0.675           3     
+		        01-IsoP_890_gaussian                 0.20          1.116         0.000           3     
+		        01-IsoP_1413_gaussian                0.20          1.406         0.000           4     
+		        01-IsoP_1572_gaussian                0.20          1.406         0.000           4     
+		        01-IsoP_1705_gaussian                0.20          1.406         0.000           4     
+		        01-IsoP_1867_gaussian                0.20          1.406         0.000           4     
+		        01-IsoP_2021_gaussian                0.20          1.235         0.717           4     
+		        01-IsoP_2179_gaussian                0.20          1.406         0.000           4     
+		        01-IsoP_2188_gaussian                0.20          1.406         0.000           4     
+		        01-IsoP_2297_gaussian                0.20          1.406         0.000           4     
+		        01-IsoP_2337_gaussian                0.20          1.406         0.000           4     
+		        01-IsoP_2536_gaussian                0.20          1.406         0.000           4     
+		        01-IsoP_269_gaussian                 0.20          1.406         0.000           4     
+		        01-IsoP_2733_gaussian                0.20          1.235         0.717           4     
+		        01-IsoP_2879_gaussian                0.20          1.406         0.000           4     
+		        01-IsoP_2917_gaussian                0.20          1.406         0.000           4     
+		        01-IsoP_2949_gaussian                0.20          1.235         0.717           4     
+		        01-IsoP_2976_gaussian                0.20          1.406         0.000           4     
+		        01-IsoP_3119_gaussian                0.20          1.235         0.717           4     
+		        01-IsoP_3559_gaussian                0.20          1.235         0.717           4     
+		        01-IsoP_3819_gaussian                0.20          1.235         0.717           4     
+		        01-IsoP_3875_gaussian                0.20          1.406         0.000           4     
+		        01-IsoP_460_gaussian                 0.20          1.235         0.717           4     
+		        01-IsoP_523_gaussian                 0.20          1.406         0.000           4     
+		        01-IsoP_534_gaussian                 0.20          1.406         0.000           4     
+		        01-IsoP_556_gaussian                 0.20          1.406         0.000           4     
+		        01-IsoP_801_gaussian                 0.20          1.406         0.000           4     
+
+		## Optimized conformers:
+			01-IsoP_1352_gaussian_allign.mol2
+			01-IsoP_094_gaussian_allign.mol2
+			01-IsoP_1003_gaussian_allign.mol2
+			01-IsoP_1413_gaussian_allign.mol2
+		## Optimized conformers:
+
+			-------- ATTENTION --------
+			You should remove the files in /home/cfmac/jramos/GECOS/test-01_IsoP
+			from the server trueno.csic.es
+			-------- ATTENTION --------
+
+		**************** SUMMARY ***************
+
+
+		 Job Finnished: 17-09-2021 18:41:14
+

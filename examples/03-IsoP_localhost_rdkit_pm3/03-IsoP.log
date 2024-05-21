@@ -1,0 +1,109 @@
+
+        ***********************************************************************
+                           Generation of Conformers (GeCoS)
+                         -----------------------------------
+                         
+                                    Version 0.1
+                         
+                                  Dr. Javier Ramos
+                          Macromolecular Physics Department
+                    Instituto de Estructura de la Materia (IEM-CSIC)
+                                   Madrid (Spain)
+                                   
+                GeCoS is an open-source python library to quickly generate
+                conformers of small molecules or polymer segments 
+                using RdKit and OpenBabel libraries. Once, the
+                conformers are generated, QM optimizations and subsequent 
+                clustering can be done.
+                
+                This software is distributed under the terms of the
+                GNU General Public License v3.0 (GNU GPLv3). A copy of 
+                the license (LICENSE.txt) is included with this distribution. 
+                
+        ***********************************************************************
+                     
+        
+		******** CREATION OF THE GECOS RDKIT OBJECT ********
+
+		Conformers will be generated with RdKit library (https://www.rdkit.org/docs/GettingStartedInPython.html)
+
+		Molecular file seed  : /home/jramos/Programacion/GITHUB_REPO_DIR/gecos2/data/IsoP.pdb
+		Bond Perception: True
+
+		Formula          = C10H18
+		Number of atoms  = 28
+		Molecular weight = 138.14 g/mol
+		Rotable bonds    = 7 (include CH3 groups)
+		Number of rings  = 0
+		******** CREATION OF THE GECOS RDKIT OBJECT ********
+
+
+		**************** GENERATE CONFORMERS ***************
+		 1. Generating 10 conformers (06-09-2022 13:42:05)
+		 2. Minimizing 10 conformers. Max_iters = 3000, threshold = 1.0 A (06-09-2022 13:42:05)
+			 Using MMFF forcefield
+		 3. Cluster Conformers (06-09-2022 13:42:05) using RMSD based method
+			10 conformers generated grouped in 5 clusters (rmsd_threshold= 1.0 angstroms)
+		 4. Get structure of minimum energy for each cluster (06-09-2022 13:42:05)
+		 5. Write Conformers to PDB (06-09-2022 13:42:05)
+			Filename: /home/jramos/Programacion/GITHUB_REPO_DIR/gecos2/examples/03-IsoP_localhost_rdkit_pm3/03-IsoP_cluster_rdkit_optMM_trj.pdb
+		 6. Write Conformers to Gaussian16 inputs (06-09-2022 13:42:05)
+			Inputfiles in 03-IsoP_g16_conformers/ directory
+		**************** GENERATE CONFORMERS ***************
+
+		**************** CONFORMER MM ENERGIES ***************
+		Energies in kcal/mol, RMSD in angstroms.
+		RMSD threshold = 1.000 angstroms.
+		Number of clusters =    5
+		Cluster Conformer_ID  MMFF_energy  Relative_energy Highest_energy    RMSD   nelements
+		----------------------------------------------------------------------------------------
+		   1         5           23.24          0.00          23.76         0.000       2   
+		   2         4           23.29          0.05          24.03         1.111       2   
+		   3         8           23.49          0.24          23.49         1.516       1   
+		   4         1           23.71          0.47          24.03         1.648       4   
+		   5         7           24.54          1.30          24.54         1.003       1   
+		----------------------------------------------------------------------------------------
+		**************** CONFORMER MM ENERGIES ***************
+
+		**************** OPTIMIZE CONFORMERS USING GAUSSIAN16 ***************
+			1. Connected to localhost (06-09-2022 13:42:05)
+			   Database /home/jramos/Programacion/GITHUB_REPO_DIR/gecos2/examples/03-IsoP_localhost_rdkit_pm3/03-IsoP_localhost.db created
+			2. Prepare SLURM script for each conformer (06-09-2022 13:42:05).
+			3. Send input files (com and sh) to server. (06-09-2022 13:42:05)
+			   Prepare and send full.sh script.
+			   Update database.
+			4. Send QM calculations to server. (06-09-2022 13:42:06)
+			5. Close connection
+		**************** OPTIMIZE CONFORMERS USING GAUSSIAN16 ***************
+
+		**************** SUMMARY ***************
+
+		Localdir                      : /home/jramos/Programacion/GITHUB_REPO_DIR/gecos2/examples/03-IsoP_localhost_rdkit_pm3
+		Database                      : /home/jramos/Programacion/GITHUB_REPO_DIR/gecos2/examples/03-IsoP_localhost_rdkit_pm3/03-IsoP_localhost.db
+		Trajectory file MM conformers : 03-IsoP_conf_min_trj.pdb
+		Directory with QM files       : 03-IsoP_g16_conformers/
+
+		#              Name_job               DeltaE_QM(kcal/mol) RMSD(A)  RMSD_incluster(A) Cluster_QM
+		# =============================================================================================
+		        03-IsoP_001_gaussian                 0.00          0.000         0.000           1     
+		        03-IsoP_005_gaussian                 0.10          0.999         0.999           1     
+		        03-IsoP_007_gaussian                 0.46          0.988         0.988           1     
+		        03-IsoP_004_gaussian                 0.13          1.251         0.000           2     
+		        03-IsoP_008_gaussian                 0.43          1.269         0.000           3     
+
+		## Optimized conformers:
+			03-IsoP_001_gaussian_allign.mol2
+			03-IsoP_004_gaussian_allign.mol2
+			03-IsoP_008_gaussian_allign.mol2
+		## Optimized conformers:
+
+			-------- ATTENTION --------
+			You should remove the files in /home/jramos/Programacion/GITHUB_REPO_DIR/gecos2/examples/03-IsoP_localhost_rdkit_pm3/remote_files
+			from the server localhost
+			-------- ATTENTION --------
+
+		**************** SUMMARY ***************
+
+
+		 Job Finnished: 06-09-2022 13:42:58
+

@@ -1,0 +1,74 @@
+
+        ***********************************************************************
+                           Generation of Conformers (GeCoS)
+                         -----------------------------------
+                         
+                                    Version 0.1
+                         
+                                  Dr. Javier Ramos
+                          Macromolecular Physics Department
+                    Instituto de Estructura de la Materia (IEM-CSIC)
+                                   Madrid (Spain)
+                                   
+                GeCoS is an open-source python library to quickly generate
+                conformers of small molecules or polymer segments 
+                using RdKit and OpenBabel libraries. Once, the
+                conformers are generated, QM optimizations and subsequent 
+                clustering can be done.
+                
+                This software is distributed under the terms of the
+                GNU General Public License v3.0 (GNU GPLv3). A copy of 
+                the license (LICENSE.txt) is included with this distribution. 
+                
+        ***********************************************************************
+                     
+        
+		******** CREATION OF THE GECOS RDKIT OBJECT ********
+
+		Conformers will be generated with RdKit library (https://www.rdkit.org/docs/GettingStartedInPython.html)
+
+		Molecular file seed  : /home/jramos/PycharmProjects/GeCos/examples/06-PVA_trueno_openbabel_mp2/PVA_C5.pdb
+		Bond Perception: True
+
+		Formula          = C5H12O
+		Number of atoms  = 18
+		Molecular weight = 88.09 g/mol
+		Rotable bonds    = 5 (include CH3 groups)
+		Number of rings  = 0
+		******** CREATION OF THE GECOS RDKIT OBJECT ********
+
+
+		**************** GENERATE CONFORMERS ***************
+		 1. Generating 4000 conformers (19-09-2021 19:58:16)
+		 2. Minimizing 4000 conformers. Max_iters = 3000, threshold = 2.0 A (19-09-2021 19:58:25)
+			 Using MMFF forcefield
+		 3. Cluster Conformers (19-09-2021 19:58:53) using RMSD based method
+			4000 conformers generated grouped in 3 clusters (rmsd_threshold= 2.0 angstroms)
+		 4. Get structure of minimum energy for each cluster (19-09-2021 19:58:53)
+
+		 5. Write Conformers to PDB (19-09-2021 19:58:53)
+			Filename: /home/jramos/PycharmProjects/GeCos/examples/06-PVA_trueno_rdkit_mp2/06-PVA_cluster_rdkit_optMM_trj.pdb
+		 6. Write Conformers to Gaussian16 (19-09-2021 19:58:53)
+			Inputfiles in 06-PVA_g16_conformers/ directory
+		**************** GENERATE CONFORMERS ***************
+
+
+		**************** CONFORMER MM ENERGIES ***************
+		Cluster Conformer_ID  MMFF_energy(kcal/mol)  Relative_energy(kcal/mol) Highest energy(kcal/mol) nelements
+		------------------------------------------------------------------------------------------------------------
+		   1        1093              1.09                       0.00                     5.73          1999  
+		   2        3695              1.09                       0.00                     5.73          1999  
+		   3        1270              1.09                       0.00                     2.09           2    
+		**************** CONFORMER MM ENERGIES ***************
+
+		**************** OPTIMIZE CONFORMERS USING GAUSSIAN16 ***************
+			1. Connected to trueno.csic.es (19-09-2021 19:58:54)
+			   Database /home/jramos/PycharmProjects/GeCos/examples/06-PVA_trueno_rdkit_mp2/06-PVA_trueno.db created
+			2. Prepare SLURM script for each conformer (19-09-2021 19:58:54).
+			3. Send input files (com and sh) to server. (19-09-2021 19:58:54)
+			   Prepare and send full.sh script.
+			   Update database.
+			4. Send QM calculations to server. (19-09-2021 19:58:55)
+			5. Close connection
+		**************** OPTIMIZE CONFORMERS USING GAUSSIAN16 ***************
+

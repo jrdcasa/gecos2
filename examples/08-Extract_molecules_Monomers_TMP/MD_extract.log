@@ -1,0 +1,123 @@
+
+        ***********************************************************************
+                           Generation of Conformers (GeCoS)
+                         -----------------------------------
+                         
+                                    Version 0.1
+                         
+                                  Dr. Javier Ramos
+                          Macromolecular Physics Department
+                    Instituto de Estructura de la Materia (IEM-CSIC)
+                                   Madrid (Spain)
+                                   
+                GeCoS is an open-source python library to quickly generate
+                conformers of small molecules or polymer segments 
+                using RdKit and OpenBabel libraries. Once, the
+                conformers are generated, QM optimizations and subsequent 
+                clustering can be done.
+                
+                This software is distributed under the terms of the
+                GNU General Public License v3.0 (GNU GPLv3). A copy of 
+                the license (LICENSE.txt) is included with this distribution. 
+                
+        ***********************************************************************
+                     
+        
+		******** CREATION OF THE GECOS EXTRACT NEIGHBORS OBJECT ********
+
+		Conformers will be extracted from a frame of a MD simulation.
+		 Find number of molecules in the frame.(07-09-2022 15:33:17)
+
+		Formula             = C125H300O25
+		Number of atoms     = 450
+		Molecular weight    = 2203.70 g/mol
+		Number of rings     = 0
+		Number of molecules = 25
+		******** CREATION OF THE GECOS EXTRACT NEIGHBORS OBJECT ********
+
+
+		**************** EXTRACT CONFORMERS ***************
+		 1. Unwrapping molecules to calculate center of masses (07-09-2022 15:33:17)
+		 2. Calculating center of masses (07-09-2022 15:33:17)
+		 3. Wrapping atoms to visualize (wrapper_atoms.pdb) (07-09-2022 15:33:17)
+		 4. Extracting conformations from frame (07-09-2022 15:33:17)
+		    4.a Using method SPHERE with radius 7.0 angstroms (07-09-2022 15:33:17)
+		    4.b Extracting monomers (07-09-2022 15:33:17)
+		**************** EXTRACT CONFORMERS ***************
+
+		**************** OPTIMIZE CONFORMERS USING GAUSSIAN16 ***************
+			1. Connected to localhost (07-09-2022 15:33:17)
+			   Database /home/jramos/Programacion/GITHUB_REPO_DIR/gecos2/examples/08-Extract_molecules/MD_extract.db created
+			2. Prepare SLURM script for each conformer (07-09-2022 15:33:17).
+			3. Send input files (com and sh) to server. (07-09-2022 15:33:17)
+			   Prepare and send full.sh script.
+			   Update database.
+			4. Send QM calculations to server. (07-09-2022 15:33:18)
+			5. Close connection
+		**************** OPTIMIZE CONFORMERS USING GAUSSIAN16 ***************
+
+			 :::: Checking start: 07-09-2022 15:33:35
+			 :::: Completed 5 of 25 jobs
+			 :::: Checking end: 07-09-2022 15:33:36
+
+
+			 :::: Checking start: 07-09-2022 15:34:34
+			 :::: Completed 12 of 25 jobs
+			 :::: Checking end: 07-09-2022 15:34:35
+
+
+		**************** SUMMARY ***************
+
+		Localdir                      : /home/jramos/Programacion/GITHUB_REPO_DIR/gecos2/examples/08-Extract_molecules
+		Database                      : /home/jramos/Programacion/GITHUB_REPO_DIR/gecos2/examples/08-Extract_molecules/MD_extract.db
+		Trajectory file MM conformers : MD_extract_conf_min_trj.pdb
+		Directory with QM files       : MD_extract_g16_conformers/
+
+		#              Name_job               DeltaE_QM(kcal/mol) RMSD(A)  RMSD_incluster(A) Cluster_QM
+		# =============================================================================================
+		       MD_extract_018_gaussian               0.00          0.000         0.000           1     
+		       MD_extract_004_gaussian               1.29          0.041         0.041           1     
+		       MD_extract_012_gaussian               1.29          0.040         0.040           1     
+		       MD_extract_022_gaussian               1.29          0.040         0.040           1     
+		       MD_extract_024_gaussian               1.29          0.041         0.041           1     
+		       MD_extract_011_gaussian               0.24          0.649         0.000           2     
+		       MD_extract_021_gaussian               2.37          0.639         0.091           2     
+		       MD_extract_002_gaussian               3.70          0.721         0.287           2     
+		       MD_extract_000_gaussian               0.53          0.653         0.000           3     
+		       MD_extract_008_gaussian               0.53          0.653         0.001           3     
+		       MD_extract_015_gaussian               0.53          0.654         0.001           3     
+		       MD_extract_006_gaussian               1.80          0.637         0.047           3     
+		       MD_extract_007_gaussian               1.80          0.664         0.045           3     
+		       MD_extract_009_gaussian               1.80          0.664         0.045           3     
+		       MD_extract_016_gaussian               1.80          0.637         0.047           3     
+		       MD_extract_017_gaussian               1.80          0.637         0.047           3     
+		       MD_extract_019_gaussian               1.80          0.664         0.044           3     
+		       MD_extract_023_gaussian               1.80          0.664         0.045           3     
+		       MD_extract_001_gaussian               0.82          0.640         0.000           4     
+		       MD_extract_010_gaussian               2.99          0.662         0.053           4     
+		       MD_extract_020_gaussian               2.99          0.662         0.052           4     
+		       MD_extract_005_gaussian               0.82          0.872         0.000           5     
+		       MD_extract_013_gaussian               1.29          0.694         0.000           6     
+		       MD_extract_003_gaussian               1.97          0.709         0.046           6     
+		       MD_extract_014_gaussian               1.31          0.921         0.000           7     
+
+		## Optimized conformers:
+			MD_extract_018_gaussian_allign.mol2
+			MD_extract_011_gaussian_allign.mol2
+			MD_extract_000_gaussian_allign.mol2
+			MD_extract_001_gaussian_allign.mol2
+			MD_extract_005_gaussian_allign.mol2
+			MD_extract_013_gaussian_allign.mol2
+			MD_extract_014_gaussian_allign.mol2
+		## Optimized conformers:
+
+			-------- ATTENTION --------
+			You should remove the files in /home/jramos/Programacion/GITHUB_REPO_DIR/gecos2/examples/08-Extract_molecules/remote_dir
+			from the server localhost
+			-------- ATTENTION --------
+
+		**************** SUMMARY ***************
+
+
+		 Job Finnished: 07-09-2022 15:45:18
+

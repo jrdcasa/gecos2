@@ -1,0 +1,91 @@
+
+        ***********************************************************************
+                           Generation of Conformers (GeCoS)
+                         -----------------------------------
+                         
+                                    Version 0.1
+                         
+                                  Dr. Javier Ramos
+                          Macromolecular Physics Department
+                    Instituto de Estructura de la Materia (IEM-CSIC)
+                                   Madrid (Spain)
+                                   
+                GeCoS is an open-source python library to quickly generate
+                conformers of small molecules or polymer segments 
+                using RdKit and OpenBabel libraries. Once, the
+                conformers are generated, QM optimizations and subsequent 
+                clustering can be done.
+                
+                This software is distributed under the terms of the
+                GNU General Public License v3.0 (GNU GPLv3). A copy of 
+                the license (LICENSE.txt) is included with this distribution. 
+                
+        ***********************************************************************
+                     
+        
+		******** CREATION OF THE GECOS RDKIT OBJECT ********
+
+		Conformers will be generated with RdKit library (https://www.rdkit.org/docs/GettingStartedInPython.html)
+
+		Molecular file seed  : /home/jramos/PycharmProjects/GeCos/data/PET.pdb
+		Bond Perception: True
+
+		******** CREATION OF THE GECOS RDKIT OBJECT ********
+
+
+		**************** GENERATE CONFORMERS ***************
+		 1. Generating 2000 conformers (27-07-2021 19:27:09)
+		 2. Minimizing 2000 conformers. Max_iters = 3000, threshold = 2.0 A (27-07-2021 19:28:29)
+			 Using MMFF forcefield
+		 3. Cluster Conformers (27-07-2021 19:30:01)
+			2000 conformers generated grouped in 11 clusters (rmsd_threshold= 2.0 angstroms)
+		 4. Get structure of minimum energy for each cluster (27-07-2021 19:32:18)
+		 5. Write Conformers to PDB (27-07-2021 19:32:18)
+			Filename: /home/jramos/PycharmProjects/GeCos/examples/05-PET_trueno_rdkit_mp2/05-PET_conf_min_trj.pdb
+		 6. Write Conformers to Gaussian16 (27-07-2021 19:32:18)
+			Inputfiles in 05-PET_g16_conformers/ directory
+		**************** GENERATE CONFORMERS ***************
+
+
+		**************** CONFORMER MM ENERGIES ***************
+			Cluster Conformer_ID  MMFF_energy(kcal/mol)  Relative_energy(kcal/mol)
+			--------------------------------------------------------------------
+			   1        1404         72.08                0.90          
+			   2        1088         72.08                0.90          
+			   3        1390         71.19                0.00          
+			   4        1983         71.19                0.00          
+			   5        361          72.12                0.93          
+			   6        1741         71.82                0.63          
+			   7        494          72.18                0.99          
+			   8        1387         72.12                0.93          
+			   9        1933         71.86                0.68          
+			  10        214          73.47                2.29          
+			  11        1602         73.12                1.93          
+		**************** CONFORMER MM ENERGIES ***************
+
+		**************** OPTIMIZE CONFORMERS USING GAUSSIAN16 ***************
+			1. Connected to trueno.csic.es (27-07-2021 19:32:19)
+			   Database /home/jramos/PycharmProjects/GeCos/examples/05-PET_trueno_rdkit_mp2/05-PET_trueno.db created
+			2. Prepare SLURM script for each conformer (27-07-2021 19:32:19).
+			3. Send input files (com and sh) to server. (27-07-2021 19:32:19)
+			   Prepare and send full.sh script.
+			   Update database.
+			4. Send QM calculations to server. (27-07-2021 19:32:21)
+			5. Close connection
+		**************** OPTIMIZE CONFORMERS USING GAUSSIAN16 ***************
+
+			 :::: Checking start: 27-07-2021 19:36:55
+			 :::: Completed 0 of 11 jobs
+			 :::: Checking end: 27-07-2021 19:37:04
+
+
+			 :::: Checking start: 27-07-2021 20:41:11
+			 :::: Completed 6 of 11 jobs
+			 :::: Checking end: 27-07-2021 20:41:20
+
+
+			 :::: Checking start: 27-07-2021 21:36:18
+			 :::: Completed 8 of 11 jobs
+			 :::: Checking end: 27-07-2021 21:36:27
+
+

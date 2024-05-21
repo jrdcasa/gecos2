@@ -1,0 +1,16 @@
+thirdparty/*
+gecos_gui/__pycache__/*
+gecos/__pycache__/*
+utils/__pycache__/*
+build/
+dist/
+*egg*/
+tests_pysimplegui/
+*.swp
+install.log
+tests_pysimplegui/*
+TMP
+slurm-*
+*.wfn
+tests/*
+

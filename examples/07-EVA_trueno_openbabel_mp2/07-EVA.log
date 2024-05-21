@@ -1,0 +1,125 @@
+
+        ***********************************************************************
+                           Generation of Conformers (GeCoS)
+                         -----------------------------------
+                         
+                                    Version 0.1
+                         
+                                  Dr. Javier Ramos
+                          Macromolecular Physics Department
+                    Instituto de Estructura de la Materia (IEM-CSIC)
+                                   Madrid (Spain)
+                                   
+                GeCoS is an open-source python library to quickly generate
+                conformers of small molecules or polymer segments 
+                using RdKit and OpenBabel libraries. Once, the
+                conformers are generated, QM optimizations and subsequent 
+                clustering can be done.
+                
+                This software is distributed under the terms of the
+                GNU General Public License v3.0 (GNU GPLv3). A copy of 
+                the license (LICENSE.txt) is included with this distribution. 
+                
+        ***********************************************************************
+                     
+        
+		******** CREATION OF THE GECOS PYBABEL OBJECT ********
+
+		Conformers will be generated with openbabel library (https://openbabel.org/wiki/Python, https://openbabel.github.io/api/3.0/index.shtml)
+
+		Molecular file seed  : /home/jramos/PycharmProjects/GeCos/examples/07-EVA_trueno_openbabel_mp2/EVA_C5.pdb
+		Bond Perception: True
+
+		Formula          = C7H14O2
+		Number of atoms  = 23
+		Molecular weight = 130.18 g/mol
+		Rotable bonds    = 4 (does not include CH3 groups)
+		Number of rings  = 0
+		******** CREATION OF THE GECOS PYBABEL OBJECT ********
+
+
+		**************** GENERATE CONFORMERS ***************
+		 1. Generating conformers with openbabel (4000)
+			Molecule = /home/jramos/PycharmProjects/GeCos/examples/07-EVA_trueno_openbabel_mp2/EVA_C5.pdb
+			Number of rotatable bonds = 4
+			Force Field = MMFF94 force field.
+			Conformer Searching = ConFab
+			Options: rmsd_cutoff = 0.5 A, nconfs = 4000
+			Options: energy_cutoff = 50.0 kcal/mol, confab_verbose = False
+			 ** CONFAB has generated 24 conformers **
+		 2. Minimizing 24 conformers. Max_iters = 3000 (19-09-2021 20:02:24)
+			 Using MMFF forcefield
+		 3. Cluster Conformers (19-09-2021 20:02:25)
+			24 conformers generated grouped in 12 clusters (rmsd_threshold= 1.0 angstroms)
+		 4. Get structure of minimum energy for each cluster (19-09-2021 20:02:26)
+		 5. Write Conformers to MOL2 (19-09-2021 20:02:26)
+			Filename: /home/jramos/PycharmProjects/GeCos/examples/07-EVA_trueno_openbabel_mp2/07-EVA_cluster_ob_optMM_trj.mol2
+		**************** GENERATE CONFORMERS ***************
+
+
+		**************** CONFORMER MM ENERGIES ***************
+
+		Cluster Conformer_ID  MMFF_energy(kcal/mol)  Relative_energy(kcal/mol) Highest energy(kcal/mol) nelements
+		------------------------------------------------------------------------------------------------------------
+		   1         10              -6.99                       0.00                     0.99           3    
+		   2         18              -6.95                       0.05                    -6.42           2    
+		   3         9               -6.90                       0.09                     6.79           3    
+		   4         1               -6.80                       0.19                    -3.71           3    
+		   5         3               -6.70                       0.30                    -5.77           2    
+		   6         17              -6.23                       0.76                     6.00           2    
+		   7         6               -6.22                       0.77                    -6.22           1    
+		   8         11              -6.07                       0.93                     7.83           4    
+		   9         21              -3.30                       3.70                    -3.30           1    
+		  10         7               -3.00                       3.99                    -3.00           1    
+		  11         22               0.63                       7.62                     0.63           1    
+		  12         12               6.31                      13.31                     6.31           1    
+		**************** CONFORMER MM ENERGIES ***************
+
+		**************** OPTIMIZE CONFORMERS USING GAUSSIAN16 ***************
+			1. Connected to trueno.csic.es (19-09-2021 20:02:27)
+			   Database /home/jramos/PycharmProjects/GeCos/examples/07-EVA_trueno_openbabel_mp2/07-EVA_trueno.db created
+			2. Prepare SLURM script for each conformer (19-09-2021 20:02:27).
+			3. Send input files (com and sh) to server. (19-09-2021 20:02:27)
+			   Prepare and send full.sh script.
+			   Update database.
+			4. Send QM calculations to server. (19-09-2021 20:02:29)
+			5. Close connection
+		**************** OPTIMIZE CONFORMERS USING GAUSSIAN16 ***************
+
+		**************** SUMMARY ***************
+
+		Localdir                      : /home/jramos/PycharmProjects/GeCos/examples/07-EVA_trueno_openbabel_mp2
+		Database                      : /home/jramos/PycharmProjects/GeCos/examples/07-EVA_trueno_openbabel_mp2/07-EVA_trueno.db
+		Trajectory file MM conformers : 07-EVA_conf_min_trj.pdb
+		Directory with QM files       : 07-EVA_g16_conformers/
+
+		#              Name_job               DeltaE_QM(kcal/mol) RMSD(A)  RMSD_incluster(A) Cluster_QM
+		# =============================================================================================
+		         07-EVA_001_gaussian                 0.00          0.620         0.620           1     
+		         07-EVA_018_gaussian                 0.00          0.000         0.000           1     
+		         07-EVA_006_gaussian                 0.18          0.595         0.595           1     
+		         07-EVA_007_gaussian                 0.18          0.803         0.803           1     
+		         07-EVA_012_gaussian                 0.18          0.595         0.595           1     
+		         07-EVA_017_gaussian                 0.18          0.802         0.802           1     
+		         07-EVA_010_gaussian                 0.63          0.833         0.833           1     
+		         07-EVA_011_gaussian                 0.63          0.638         0.638           1     
+		         07-EVA_003_gaussian                 0.65          0.800         0.800           1     
+		         07-EVA_009_gaussian                 0.65          0.799         0.799           1     
+		         07-EVA_022_gaussian                 0.65          0.799         0.799           1     
+		         07-EVA_021_gaussian                 2.56          1.326         0.000           2     
+
+		## Optimized conformers:
+			07-EVA_001_gaussian_allign.mol2
+			07-EVA_021_gaussian_allign.mol2
+		## Optimized conformers:
+
+			-------- ATTENTION --------
+			You should remove the files in /home/cfmac/jramos/GECOS/test-07_EVA_openbabel
+			from the server trueno.csic.es
+			-------- ATTENTION --------
+
+		**************** SUMMARY ***************
+
+
+		 Job Finnished: 21-09-2021 16:06:49
+

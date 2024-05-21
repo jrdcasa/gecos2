@@ -1,0 +1,56 @@
+
+        ***********************************************************************
+                           Generation of Conformers (GeCoS)
+                         -----------------------------------
+                         
+                                    Version 0.1
+                         
+                                  Dr. Javier Ramos
+                          Macromolecular Physics Department
+                    Instituto de Estructura de la Materia (IEM-CSIC)
+                                   Madrid (Spain)
+                                   
+                GeCoS is an open-source python library to quickly generate
+                conformers of small molecules or polymer segments 
+                using RdKit and OpenBabel libraries. Once, the
+                conformers are generated, QM optimizations and subsequent 
+                clustering can be done.
+                
+                This software is distributed under the terms of the
+                GNU General Public License v3.0 (GNU GPLv3). A copy of 
+                the license (LICENSE.txt) is included with this distribution. 
+                
+        ***********************************************************************
+                     
+        
+		******** CREATION OF THE GECOS PYBABEL OBJECT ********
+
+		Conformers will be generated with openbabel library (https://openbabel.org/wiki/Python, https://openbabel.github.io/api/3.0/index.shtml)
+
+		Molecular file seed  : /home/jramos/Programacion/GITHUB_REPO_DIR/gecos2/data/IsoP.pdb
+		Bond Perception: True
+
+		Formula          = C10H18
+		Number of atoms  = 28
+		Molecular weight = 138.25 g/mol
+		Rotable bonds    = 3 (does not include CH3 groups)
+		Number of rings  = 0
+		******** CREATION OF THE GECOS PYBABEL OBJECT ********
+
+
+		**************** GENERATE CONFORMERS ***************
+		 1. Generating conformers with openbabel (500)
+			Molecule = /home/jramos/Programacion/GITHUB_REPO_DIR/gecos2/data/IsoP.pdb
+			Number of rotatable bonds = 3
+			Force Field = MMFF94 force field.
+			Conformer Searching = ConFab
+			Options: rmsd_cutoff = 0.5 A, nconfs = 500
+			Options: energy_cutoff = 50.0 kcal/mol, confab_verbose = False
+			 ** CONFAB has generated 44 conformers **
+		 2. Minimizing 44 conformers. Max_iters = 3000 (07-09-2022 14:45:39)
+			 Using MMFF forcefield
+		 3. Cluster Conformers (07-09-2022 14:45:51)
+			44 conformers generated grouped in 13 clusters (rmsd_threshold= 2.0 angstroms)
+		 4. Get structure of minimum energy for each cluster (07-09-2022 14:45:54)
+		 5. Write Conformers to MOL2 (07-09-2022 14:45:54)
+			Filename: /home/jramos/Programacion/GITHUB_REPO_DIR/gecos2/examples/04-IsoP_localhost_openbabel_pm3/04-IsoP_cluster_ob_optMM_trj.mol2

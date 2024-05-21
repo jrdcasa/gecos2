@@ -1,0 +1,188 @@
+
+        ***********************************************************************
+                           Generation of Conformers (GeCoS)
+                         -----------------------------------
+                         
+                                    Version 0.1
+                         
+                                  Dr. Javier Ramos
+                          Macromolecular Physics Department
+                    Instituto de Estructura de la Materia (IEM-CSIC)
+                                   Madrid (Spain)
+                                   
+                GeCoS is an open-source python library to quickly generate
+                conformers of small molecules or polymer segments 
+                using RdKit and OpenBabel libraries. Once, the
+                conformers are generated, QM optimizations and subsequent 
+                clustering can be done.
+                
+                This software is distributed under the terms of the
+                GNU General Public License v3.0 (GNU GPLv3). A copy of 
+                the license (LICENSE.txt) is included with this distribution. 
+                
+        ***********************************************************************
+                     
+        
+		******** CREATION OF THE GECOS PYBABEL OBJECT ********
+
+		Conformers will be generated with openbabel library (https://openbabel.org/wiki/Python, https://openbabel.github.io/api/3.0/index.shtml)
+
+		Molecular file seed  : /home/jramos/PycharmProjects/GeCos/data/IsoP.pdb
+		Bond Perception: True
+
+		Formula          = C10H18
+		Number of atoms  = 28
+		Molecular weight = 138.25 g/mol
+		Rotable bonds    = 3 (does not include CH3 groups)
+		Number of rings  = 0
+		******** CREATION OF THE GECOS PYBABEL OBJECT ********
+
+
+		**************** GENERATE CONFORMERS ***************
+		 1. Generating conformers with openbabel (4000)
+			Molecule = /home/jramos/PycharmProjects/GeCos/data/IsoP.pdb
+			Number of rotatable bonds = 3
+			Force Field = MMFF94 force field.
+			Conformer Searching = ConFab
+			Options: rmsd_cutoff = 0.5 A, nconfs = 4000
+			Options: energy_cutoff = 50.0 kcal/mol, confab_verbose = False
+			 ** CONFAB has generated 44 conformers **
+		 2. Minimizing 44 conformers. Max_iters = 3000 (17-09-2021 20:09:03)
+			 Using MMFF forcefield
+		 3. Cluster Conformers (17-09-2021 20:09:07)
+			44 conformers generated grouped in 32 clusters (rmsd_threshold= 1.0 angstroms)
+		 4. Get structure of minimum energy for each cluster (17-09-2021 20:09:12)
+		 5. Write Conformers to MOL2 (17-09-2021 20:09:12)
+			Filename: /home/jramos/PycharmProjects/GeCos/examples/02-IsoP_trueno_openbabel_mp2/02-IsoP_cluster_ob_optMM_trj.mol2
+		**************** GENERATE CONFORMERS ***************
+
+
+		**************** CONFORMER MM ENERGIES ***************
+
+		Cluster Conformer_ID  MMFF_energy(kcal/mol)  Relative_energy(kcal/mol) Highest energy(kcal/mol) nelements
+		------------------------------------------------------------------------------------------------------------
+		   1         0               24.91                       0.00                    26.14           2    
+		   2         2               25.19                       0.28                    25.19           1    
+		   3         7               25.22                       0.31                    26.02           3    
+		   4         5               25.43                       0.52                    25.43           1    
+		   5         10              25.47                       0.56                    25.47           1    
+		   6         19              25.81                       0.90                    25.81           1    
+		   7         36              25.90                       0.99                    26.11           2    
+		   8         8               26.05                       1.13                    26.05           1    
+		   9         3               26.15                       1.24                    28.05           3    
+		  10         28              26.19                       1.27                    29.02           2    
+		  11         1               26.35                       1.43                    26.35           1    
+		  12         12              26.41                       1.50                    28.67           3    
+		  13         41              26.84                       1.93                    26.84           1    
+		  14         25              26.86                       1.95                    26.86           1    
+		  15         6               26.90                       1.99                    26.90           1    
+		  16         13              27.09                       2.18                    27.09           1    
+		  17         27              27.11                       2.20                    28.21           2    
+		  18         14              27.22                       2.31                    27.22           1    
+		  19         39              27.34                       2.42                    27.34           1    
+		  20         30              27.34                       2.43                    27.34           1    
+		  21         9               27.43                       2.51                    27.43           1    
+		  22         4               27.50                       2.58                    31.73           2    
+		  23         34              27.67                       2.75                    27.67           1    
+		  24         31              27.79                       2.88                    27.79           1    
+		  25         24              27.98                       3.07                    28.43           2    
+		  26         33              28.14                       3.22                    28.14           1    
+		  27         15              28.54                       3.62                    28.54           1    
+		  28         20              28.61                       3.70                    28.61           1    
+		  29         40              29.38                       4.47                    29.38           1    
+		  30         42              29.64                       4.72                    29.64           1    
+		  31         26              30.03                       5.11                    30.03           1    
+		  32         35              30.72                       5.81                    30.72           1    
+		**************** CONFORMER MM ENERGIES ***************
+
+		**************** OPTIMIZE CONFORMERS USING GAUSSIAN16 ***************
+			1. Connected to trueno.csic.es (17-09-2021 20:09:14)
+			   Database /home/jramos/PycharmProjects/GeCos/examples/02-IsoP_trueno_openbabel_mp2/02-IsoP_trueno.db created
+			2. Prepare SLURM script for each conformer (17-09-2021 20:09:14).
+			3. Send input files (com and sh) to server. (17-09-2021 20:09:14)
+			   Prepare and send full.sh script.
+			   Update database.
+			4. Send QM calculations to server. (17-09-2021 20:09:18)
+			5. Close connection
+		**************** OPTIMIZE CONFORMERS USING GAUSSIAN16 ***************
+
+			 :::: Checking start: 17-09-2021 20:11:42
+			 :::: Completed 0 of 32 jobs
+			 :::: Checking end: 17-09-2021 20:11:51
+
+
+			 :::: Checking start: 17-09-2021 20:21:23
+			 :::: Completed 0 of 32 jobs
+			 :::: Checking end: 17-09-2021 20:21:33
+
+
+			 :::: Checking start: 18-09-2021 00:28:55
+			 :::: Completed 31 of 32 jobs
+			 :::: Checking end: 18-09-2021 00:29:27
+
+
+		**************** SUMMARY ***************
+
+		Localdir                      : /home/jramos/PycharmProjects/GeCos/examples/02-IsoP_trueno_openbabel_mp2
+		Database                      : /home/jramos/PycharmProjects/GeCos/examples/02-IsoP_trueno_openbabel_mp2/02-IsoP_trueno.db
+		Trajectory file MM conformers : 02-IsoP_conf_min_trj.pdb
+		Directory with QM files       : 02-IsoP_g16_conformers/
+
+		#              Name_job               DeltaE_QM(kcal/mol) RMSD(A)  RMSD_incluster(A) Cluster_QM
+		# =============================================================================================
+		        02-IsoP_028_gaussian                 0.00          0.000         0.000           1     
+		        02-IsoP_004_gaussian                 0.16          0.564         0.564           1     
+		        02-IsoP_024_gaussian                 1.67          0.975         0.975           1     
+		        02-IsoP_033_gaussian                 1.67          0.975         0.975           1     
+		        02-IsoP_036_gaussian                 0.00          1.474         0.000           2     
+		        02-IsoP_003_gaussian                 0.16          1.644         0.725           2     
+		        02-IsoP_031_gaussian                 1.67          1.215         0.977           2     
+		        02-IsoP_040_gaussian                 1.67          1.215         0.978           2     
+		        02-IsoP_007_gaussian                 0.56          1.182         0.001           3     
+		        02-IsoP_035_gaussian                 0.56          1.181         0.000           3     
+		        02-IsoP_027_gaussian                 2.27          1.623         0.911           3     
+		        02-IsoP_012_gaussian                 0.56          1.213         0.000           4     
+		        02-IsoP_042_gaussian                 0.56          1.213         0.000           4     
+		        02-IsoP_039_gaussian                 2.27          1.081         0.993           4     
+		        02-IsoP_014_gaussian                 0.61          1.281         0.000           5     
+		        02-IsoP_041_gaussian                 0.61          1.281         0.000           5     
+		        02-IsoP_013_gaussian                 0.61          1.107         0.000           6     
+		        02-IsoP_034_gaussian                 0.61          1.107         0.000           6     
+		        02-IsoP_000_gaussian                 0.88          1.607         0.686           7     
+		        02-IsoP_006_gaussian                 0.88          1.607         0.686           7     
+		        02-IsoP_010_gaussian                 0.88          1.741         0.000           7     
+		        02-IsoP_026_gaussian                 0.88          1.741         0.000           7     
+		        02-IsoP_001_gaussian                 0.93          1.698         0.000           8     
+		        02-IsoP_002_gaussian                 0.93          1.400         0.821           8     
+		        02-IsoP_005_gaussian                 0.93          1.698         0.000           8     
+		        02-IsoP_009_gaussian                 0.93          1.400         0.820           8     
+		        02-IsoP_015_gaussian                 1.60          1.475         0.888           8     
+		        02-IsoP_019_gaussian                 1.60          1.897         0.803           8     
+		        02-IsoP_025_gaussian                 1.60          1.475         0.888           8     
+		        02-IsoP_030_gaussian                 1.34          1.803         0.000           9     
+		        02-IsoP_008_gaussian                 1.34          1.357         0.000           10    
+		        02-IsoP_020_gaussian                 1.34          1.357         0.000           10    
+
+		## Optimized conformers:
+			02-IsoP_028_gaussian_allign.mol2
+			02-IsoP_036_gaussian_allign.mol2
+			02-IsoP_007_gaussian_allign.mol2
+			02-IsoP_012_gaussian_allign.mol2
+			02-IsoP_014_gaussian_allign.mol2
+			02-IsoP_013_gaussian_allign.mol2
+			02-IsoP_000_gaussian_allign.mol2
+			02-IsoP_001_gaussian_allign.mol2
+			02-IsoP_030_gaussian_allign.mol2
+			02-IsoP_008_gaussian_allign.mol2
+		## Optimized conformers:
+
+			-------- ATTENTION --------
+			You should remove the files in /home/cfmac/jramos/GECOS/test-02_IsoP_openbabel
+			from the server trueno.csic.es
+			-------- ATTENTION --------
+
+		**************** SUMMARY ***************
+
+
+		 Job Finnished: 18-09-2021 09:45:20
+

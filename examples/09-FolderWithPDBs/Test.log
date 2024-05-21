@@ -1,0 +1,33 @@
+		******** CREATION OF THE GECOS PDB FOLDER OBJECT ********
+
+		Conformers will be extracted from a frame of a MD simulation.
+		 Find number of molecules in the frame.(12-04-2024 22:55:02)
+
+		Formula             = C25H28O13
+		Number of atoms     = 66
+		Molecular weight    = 536.48 g/mol
+		Number of rings     = 3
+		Number of molecules = 9
+		******** CREATION OF THE GECOS PDB FOLDER OBJECT ********
+
+
+		**************** OPTIMIZE CONFORMERS USING GAUSSIAN16 ***************
+			1. Connected to aoki.iem.csic.es (12-04-2024 22:55:02)
+			   Database /home/jramos/Programacion/GITHUB_REPO_DIR/gecos2/examples/09-FolderWithPDBs/Test.db created
+			2. Prepare SLURM script for each conformer (12-04-2024 22:55:02).
+			3. Send input files (com and sh) to server. (12-04-2024 22:55:02)
+			   Prepare and send full.sh script.
+			   Update database.
+			4. Send QM calculations to server. (12-04-2024 22:55:03)
+			5. Close connection
+		**************** OPTIMIZE CONFORMERS USING GAUSSIAN16 ***************
+
+		Number of logs completed from server : 0
+		Number of logs failed in server      : 0
+		Number of logs in server             : 9
+
+			 :::: Checking start: 12-04-2024 22:56:47
+			 :::: Completed 0 of 9 jobs
+			 :::: Checking end: 12-04-2024 22:56:49
+
+

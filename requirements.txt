@@ -1,0 +1,23 @@
+#Gecos
+wheel
+GitPython
+cython
+rdkit-pypi
+rdkit
+pandas
+paramiko
+pycryptodome
+passwd-encrypt
+numpy
+rmsd
+scikit-learn
+#Jupyter
+jupyter
+nglview
+Pillow
+MDAnalysis
+pybaselines
+commonnn-clustering
+# GUI
+PySimpleGUI
+matplotlib

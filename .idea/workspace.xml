@@ -1,0 +1,1807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ebbb5439-18f5-4cbd-8476-38089bdd86e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/gecos/gecos_pdbfolder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gecos/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gecos/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gecos_gui/events.py" beforeDir="false" afterPath="$PROJECT_DIR$/gecos_gui/events.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gecos_gui/events_export.py" beforeDir="false" afterPath="$PROJECT_DIR$/gecos_gui/events_export.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gecos_gui/events_import.py" beforeDir="false" afterPath="$PROJECT_DIR$/gecos_gui/events_import.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gecos_gui/events_open.py" beforeDir="false" afterPath="$PROJECT_DIR$/gecos_gui/events_open.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gecos_gui/general_inputs_tab.py" beforeDir="false" afterPath="$PROJECT_DIR$/gecos_gui/general_inputs_tab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/gaussian16.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/gaussian16.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="9e7deb4b-d547-4198-a22c-ef6addc4ee35" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="26hkARJemiIuFANl6q1Pn3CIITN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/jramos/Documentos/___MIS_PROYECTOS___/2024-Grasa_Cyclodextrines/05-MS/Grasa_Files/Documents/02-COM22/02-trans/01-Conformers/Extracted_pdbs&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/19-clustering_test01" />
+      <recent name="$PROJECT_DIR$/gecos_analysis" />
+      <recent name="$PROJECT_DIR$/gecos" />
+      <recent name="$PROJECT_DIR$/utils" />
+      <recent name="$PROJECT_DIR$/gecos/ext_libc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gecos_analysis" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.01-GECOS_GUI">
+    <configuration name="01-GECOS_GUI" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2024-Grasa_Cyclodextrines/05-MS/Grasa_Files/Documents/07-DFT_OPT_COM22_trans_G16" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_gui/maingui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="01-PET_Elvaloy  localhost FREQ" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/06-PETOH2_ELVALOY_50_50_201f_from_MD/" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/06-PETOH2_ELVALOY_50_50_201f_from_MD/01-FREQ/Property_FREQ.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="01-PET_Elvaloy  localhost" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/06-PETOH2_ELVALOY_50_50_201f_from_MD" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/06-PETOH2_ELVALOY_50_50_201f_from_MD/test01_localhost_rdkit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="01-PET_Elvaloy drago" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/06-PETOH2_ELVALOY_50_50_201f_from_MD" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/06-PETOH2_ELVALOY_50_50_201f_from_MD_drago/test01_rdkit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="01-input" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/09-FolderWithPDBs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/09-FolderWithPDBs/01-input.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02-Test_prop" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/09-test_properties" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/09-test_properties/Property_FREQ.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02-gecos_analysis 01" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/10-test_analysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="energy -d $PROJECT_DIR$/data/g16_log -p g16" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02-gecos_analysis 02 LORENTZ COMPARE" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/15-Tests_Lorentzian" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="spectrum -d ./FREQ --scale 1.0 --start 0 --end 4000 --npoints 500 --width 10 --function lorentzian_gaussian" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02-gecos_analysis 02 close_contacts" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/11-test_analysis2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="energy -d $PROJECT_DIR$/data/g16_log2 -p g16 --vdw" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02-gecos_analysis 02 exp spectrum 2021MUNICH" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/14-test_preprocess_exp_spectrum" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="exp_spectrum -f Spectra/EVOH-EVA_exp.dat -n minmax -b 2021Munich --baselineparams 0.006 -s SG --smoothSGparam 4 2" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02-gecos_analysis 02 exp spectrum ASLS" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/14-test_preprocess_exp_spectrum" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="exp_spectrum -f Spectra/EVOH-EVA_exp.dat -n minmax -b ASLS --baselineparams 1e6 1e-2 -s SG --smoothSGparam 4 2" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02-gecos_analysis 02 exp spectrum Adaptative_Min_Max" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/14-test_preprocess_exp_spectrum" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="exp_spectrum -f Spectra/EVOH-EVA_exp.dat -n minmax -s SG --smoothSGparam 4 2" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02-gecos_analysis 02 exp spectrum MIXTURE_MODEL" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/14-test_preprocess_exp_spectrum" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="exp_spectrum -f Spectra/EVOH-EVA_exp.dat -n minmax -b Mixture_Model --baselineparams 1e6 1e-2 -s SG --smoothSGparam 4 2" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02-gecos_analysis 02 exp spectrum help" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/14-test_preprocess_exp_spectrum" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="exp_spectrum -h" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02-gecos_analysis 02 freq analysis" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/13-test_analysis2_freq" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="energy -d $USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/12-EVOH-EVOH_extractMD/01-FREQ/FREQ_g16_results -p g16 --hbonds --vdw --clusterconf" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02-gecos_analysis 02 freq full" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/13-test_analysis2_freq" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="spectrum -d $USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/12-EVOH-EVOH_extractMD/01-FREQ/FREQ_g16_results -p g16 --scale 1.0 --start 0 --end 4000 --npoints 500 --width 10 --function lorentzian --clusterconf" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02-gecos_analysis 02 freq" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/13-test_analysis2_freq" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="spectrum -d $PROJECT_DIR$/data/g16_log2_freq -p g16 --scale 1.0 --start 0 --end 4000 --npoints 500 --width 10 --function lorentzian --clusterconf --normalize minmax" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02-gecos_analysis 02" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/11-test_analysis2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="energy -d $PROJECT_DIR$/data/g16_log2 -p g16 --vdw --hbonds" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02-gecos_analysis 03 energy test (1)" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerPolyTioEthers/03-Calculations/01-MOLECULES_MODEL/10-CCSCCSCCSCCOCCOCCOCC/04-FROM_MD/05-GECOS_FRAME101" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="energy -d ./PP -p g16 --vdw --hbonds --radius_gyration" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02-gecos_analysis 03 energy test" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerPolyTioEthers/03-Calculations/01-MOLECULES_MODEL/10-CCSCCSCCSCCOCCOCCOCC/04-FROM_MD/05-GECOS_FRAME101" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="energy -d ./DVE-DMSD_1_g16_results -p g16 --vdw --hbonds --radius_gyration" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02-gecos_analysis 03 monomer" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/12-test_analysis3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="energy -d $PROJECT_DIR$/data/g16_log3 -p g16 --vdw --hbonds" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02-gecos_resp_prep help" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/21-resp_test02_multiwfn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="resp_prep -h" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02-gecos_resp_prep multiwfn" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/21-resp_test02_multiwfn" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="resp_prep -d g16_logs_short --resp_software multiwfn --nconfthresh 2" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02-gecos_resp_prep" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/18-resp_test01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="resp_prep -d g16_logs_short --resp_software multiwfn --nconfthresh 2" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03-Test_prop_ESPWFN" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/09-test_properties" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/09-test_properties/Property_ESPWFN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03-gecos_clustering -h" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/18-resp_test01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="clustering -h" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03-gecos_clustering " type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/19-clustering_test01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="clustering -d $USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/12-EVOH-EVOH_extractMD/EVOH-EVOH_extractMD_g16_results --indxfile torsion.idx" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03-gecos_clustering_B" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/19-clustering_test01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="clustering -d g16_outputs --indxfile torsion.idx" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04-Test_dimer" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../GeCos_tutorials/C002_EVOHDimer_aoki/01-CONF_DFTB_AOKI_FREQ_DIMER" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../GeCos_tutorials/C002_EVOHDimer_aoki/01-CONF_DFTB_AOKI_FREQ_DIMER/Property_FREQ.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="08-Test_extract" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/08-Extract_molecules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/08-Extract_molecules/test01_rdkit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="08-Test_extract_compare" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/04-IsoP_localhost_openbabel_pm3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/04-IsoP_localhost_openbabel_pm3/test01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="11-EVOH-EVA drago FREQ" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/11-EVOH-EVA_extractMD/01-FREQ" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/11-EVOH-EVA_extractMD/01-FREQ/Property_FREQ.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="11-EVOH-EVA drago" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/11-EVOH-EVA_extractMD" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/11-EVOH-EVA_extractMD/test01_mdextract.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="16-grid-alba-gnuplot" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/16-test_grid_dihedrals" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="energy -d logs --hbonds --vdw --indxfile coords.ndx" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="17-onlyonetorsion-gnuplot" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerTiofenoles/03-Calculations/01-MOLECULES_MODEL/01-COCCOC/03-TORS_OCCO_QM_Method01/99-ANALYSIS/02-SP_CAMB3LYP_cc-pVTZ" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="energy -d ../../01-SP/SP_g16_results --indxfile coords.ndx" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="99-Test_rdkit" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../GeCos_tutorials/01-EVOH_model01_aoki/01-CONF_RDKIT_AOKI_CONF_NoQM/01-RUN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../GeCos_tutorials/01-EVOH_model01_aoki/01-CONF_RDKIT_AOKI_CONF_NoQM/01-RUN/RUN01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="998-gecos_cluster_conf help" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/11-test_analysis2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="cluster_conf -h" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="998-gecos_cluster_conf" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/17-test_g16_freq_cluster" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="energy -d LOGS -p g16 --vdw --hbonds --clusterconf" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="999-Test-MDExtract" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerTiofenoles/03-Calculations/01-MOLECULES_MODEL/10-CCSCCSCCSCCOCCOCCOCC/04-FROM_MD/02-GECOS_FRAME070" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerTiofenoles/03-Calculations/01-MOLECULES_MODEL/10-CCSCCSCCSCCOCCOCCOCC/04-FROM_MD/02-GECOS_FRAME070/01-input.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="999-Test_ESP" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerTiofenoles/03-Calculations/01-MOLECULES_MODEL/10-CCSCCSCCSCCOCCOCCOCC/02-GENERATE_CONFORMERS_RDKIT/01-SP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerTiofenoles/03-Calculations/01-MOLECULES_MODEL/10-CCSCCSCCSCCOCCOCCOCC/02-GENERATE_CONFORMERS_RDKIT/01-SP/Property_ESPWFN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="999-Test_rdkit" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documentos/___MIS_ESTUDIANTES___/2023-AlbaGrandio/07-GeCOS_Test/1_4glucose" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Documentos/___MIS_ESTUDIANTES___/2023-AlbaGrandio/07-GeCOS_Test/1_4glucose/01-glucose_14_small_rdkit_localhost.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="999-Test_systematic Analysis" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documentos/___MIS_ESTUDIANTES___/2023-AlbaGrandio/07-GeCOS_Test/1_4glucose/01-OPT_RESULTS_scandih_freeze_full/99-ANALYSIS/01-ENERGY" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="energy -d ../../glucose_14_g16_results/ --hbonds --vdw --indxfile coords.ndx" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="999-Test_systematic Analysis_small" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documentos/___MIS_ESTUDIANTES___/2023-AlbaGrandio/07-GeCOS_Test/1_4glucose/01-OPT_RESULTS_scandih_freeze_full/99-ANALYSIS/01-ENERGY_SMALL" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="energy -d ../../glucose_14_g16_results_small/ --hbonds --vdw --indxfile coords.ndx" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="999-Test_systematic (1)" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerTiofenoles/03-Calculations/01-MOLECULES_MODEL/01-COCCOC/04-TORS_TTT_QM_Method01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerTiofenoles/03-Calculations/01-MOLECULES_MODEL/01-COCCOC/04-TORS_TTT_QM_Method01/01-input.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="999-Test_systematic" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documentos/___MIS_ESTUDIANTES___/2023-AlbaGrandio/07-GeCOS_Test/1_4glucose" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Documentos/___MIS_ESTUDIANTES___/2023-AlbaGrandio/07-GeCOS_Test/1_4glucose/01-glucose_14_small_cesga.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Property_ESPWFN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerPolyTioEthers/03-Calculations/01-MOLECULES_MODEL/10-CCSCCSCCSCCOCCOCCOCC/04-FROM_MD/06-MV_ALL_ALLIGN_MOL2/02-SP-LBASISSET" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerPolyTioEthers/03-Calculations/01-MOLECULES_MODEL/10-CCSCCSCCSCCOCCOCCOCC/04-FROM_MD/06-MV_ALL_ALLIGN_MOL2/02-SP-LBASISSET/Property_ESPWFN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Property_SP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documentos/___MIS_ESTUDIANTES___/2022-Emma_Franco_Mateos/06-G16CALC_PKA/02-OPT-LYS_DXD2_CHARGE0" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Documentos/___MIS_ESTUDIANTES___/2022-Emma_Franco_Mateos/06-G16CALC_PKA/02-OPT-LYS_DXD2_CHARGE0/Property_SP.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Pruebas" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../sandboxes/sandbox_gecos2/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerPolyTioEthers/03-Calculations/01-MOLECULES_MODEL/10-CCSCCSCCSCCOCCOCCOCC/02-GENERATE_CONFORMERS_RDKIT/02-SP-LBASISSET" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerPolyTioEthers/03-Calculations/01-MOLECULES_MODEL/10-CCSCCSCCSCCOCCOCCOCC/02-GENERATE_CONFORMERS_RDKIT/02-SP-LBASISSET/Property_ESPWFN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Setup.py install" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setup.py" />
+      <option name="PARAMETERS" value="install" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TEST2" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerPolyTioEthers/03-Calculations/01-MOLECULES_MODEL/15-DVE-TRIMER/04-FROM_MD/02-GECOS_FRAME350" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerPolyTioEthers/03-Calculations/01-MOLECULES_MODEL/15-DVE-TRIMER/04-FROM_MD/02-GECOS_FRAME350/01-input.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="XX-gecos_analysis 02 freq full (2)" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/13-test_analysis2_freq" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="spectrum -d $USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/12-EVOH-EVOH_extractMD/01-FREQ/FREQ_g16_results -p g16 --scale 1.0 --start 0 --end 4000 --npoints 500 --width 10 --function lorentzian --clusterconf" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="XX01-gecos_analysis 02 -h" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/13-test_analysis2_freq" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="energy -h" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="XX02-gecos_analysis energy EHT-ETH " type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/13-test_analysis2_freq/01-ENERGY_ETH_ETH" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="energy -d $USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/15-ETH-ETH_extractMD/01-FREQ/FREQ_g16_results -p g16 --hbonds --vdw --clusterconf" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="XX02-gecos_analysis energy EVOH-ETH" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/13-test_analysis2_freq/01-ENERGY_EVOH_ETH" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="energy -d $USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/16-EVOH-ETH_extractMD/01-FREQ/FREQ_g16_results -p g16 --hbonds --vdw --clusterconf" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="XX02-gecos_analysis energy EVOH-EVOH" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/13-test_analysis2_freq/01-ENERGY_EVOH_EVOH" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="energy -d $USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/12-EVOH-EVOH_extractMD/01-FREQ/FREQ_g16_results -p g16 --hbonds --vdw --clusterconf" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="XX03-gecos_analysis spectrum ETH-ETH " type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/13-test_analysis2_freq/02-SPECTRUM_ETH_ETH" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="spectrum -d $USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/15-ETH-ETH_extractMD/01-FREQ/FREQ_g16_results -p g16 --start 400 --end 4000 --npoints 500 --width 40 --avg all --similarity --normalize minmax --clusterconf --scale 0.97" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="XX03-gecos_analysis spectrum EVOH-ETH" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/13-test_analysis2_freq/02-SPECTRUM_EVOH_ETH" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="spectrum -d $USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/16-EVOH-ETH_extractMD/01-FREQ/FREQ_g16_results -p g16 --start 400 --end 4000 --npoints 500 --width 40 --avg all --similarity --normalize minmax --clusterconf --scale 0.97" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="XX03-gecos_analysis spectrum EVOH-EVOH" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/13-test_analysis2_freq/02-SPECTRUM_EVOH_EVOH" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="spectrum -d $USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/12-EVOH-EVOH_extractMD/01-FREQ/FREQ_g16_results -p g16 --start 400 --end 4000 --npoints 500 --width 40 --avg all --similarity --normalize minmax --clusterconf --scale 0.97" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="XX04-EVOH_exp" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/13-test_analysis2_freq/03-EXP_SPECTRUM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="exp_spectrum -f EVOH_exp.dat -r 400 4000 500" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="XX05-EVOH_similarity" type="PythonConfigurationType" factoryName="Python">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/13-test_analysis2_freq/04-COMPARE_EXP_SIM" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gecos_analysis/gecos_analysis.py" />
+      <option name="PARAMETERS" value="similarity -r $PROJECT_DIR$/tests/13-test_analysis2_freq/03-EXP_SPECTRUM/EVOH_exp_corrected.dat -t $PROJECT_DIR$/tests/13-test_analysis2_freq/02-SPECTRUM_EVOH_EVOH/averaged_s*dat" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in 01-test_gecosrdkit.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
+      <module name="gecos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../sandboxes/sandbox_gecos2/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/01-test_logs/01-test_gecosrdkit.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Setup.py install" />
+      <item itemvalue="Python.02-Test_prop" />
+      <item itemvalue="Python.03-Test_prop_ESPWFN" />
+      <item itemvalue="Python.04-Test_dimer" />
+      <item itemvalue="Python.08-Test_extract" />
+      <item itemvalue="Python.01-PET_Elvaloy drago" />
+      <item itemvalue="Python.11-EVOH-EVA drago" />
+      <item itemvalue="Python.11-EVOH-EVA drago FREQ" />
+      <item itemvalue="Python.01-PET_Elvaloy  localhost" />
+      <item itemvalue="Python.01-PET_Elvaloy  localhost FREQ" />
+      <item itemvalue="Python.08-Test_extract_compare" />
+      <item itemvalue="Python.99-Test_rdkit" />
+      <item itemvalue="Python.02-gecos_analysis 01" />
+      <item itemvalue="Python.02-gecos_analysis 02" />
+      <item itemvalue="Python.02-gecos_analysis 02 freq" />
+      <item itemvalue="Python.02-gecos_analysis 02 freq analysis" />
+      <item itemvalue="Python.02-gecos_analysis 02 freq full" />
+      <item itemvalue="Python.16-grid-alba-gnuplot" />
+      <item itemvalue="Python.17-onlyonetorsion-gnuplot" />
+      <item itemvalue="Python.02-gecos_analysis 02 exp spectrum help" />
+      <item itemvalue="Python.02-gecos_analysis 02 exp spectrum 2021MUNICH" />
+      <item itemvalue="Python.02-gecos_analysis 02 exp spectrum ASLS" />
+      <item itemvalue="Python.02-gecos_analysis 02 exp spectrum MIXTURE_MODEL" />
+      <item itemvalue="Python.02-gecos_analysis 02 exp spectrum Adaptative_Min_Max" />
+      <item itemvalue="Python.02-gecos_analysis 02 LORENTZ COMPARE" />
+      <item itemvalue="Python.02-gecos_analysis 03 monomer" />
+      <item itemvalue="Python.02-gecos_analysis 03 energy test" />
+      <item itemvalue="Python.02-gecos_analysis 03 energy test (1)" />
+      <item itemvalue="Python.02-gecos_analysis 02 close_contacts" />
+      <item itemvalue="Python.02-gecos_resp_prep" />
+      <item itemvalue="Python.02-gecos_resp_prep multiwfn" />
+      <item itemvalue="Python.02-gecos_resp_prep help" />
+      <item itemvalue="Python.03-gecos_clustering -h" />
+      <item itemvalue="Python.03-gecos_clustering " />
+      <item itemvalue="Python.03-gecos_clustering_B" />
+      <item itemvalue="Python.998-gecos_cluster_conf" />
+      <item itemvalue="Python.998-gecos_cluster_conf help" />
+      <item itemvalue="Python.999-Test_systematic" />
+      <item itemvalue="Python.999-Test_systematic (1)" />
+      <item itemvalue="Python.999-Test_ESP" />
+      <item itemvalue="Python.999-Test-MDExtract" />
+      <item itemvalue="Python.999-Test_rdkit" />
+      <item itemvalue="Python.999-Test_systematic Analysis" />
+      <item itemvalue="Python.999-Test_systematic Analysis_small" />
+      <item itemvalue="Python.01-GECOS_GUI" />
+      <item itemvalue="Python.Pruebas" />
+      <item itemvalue="Python.XX01-gecos_analysis 02 -h" />
+      <item itemvalue="Python.XX02-gecos_analysis energy EVOH-EVOH" />
+      <item itemvalue="Python.XX02-gecos_analysis energy EVOH-ETH" />
+      <item itemvalue="Python.XX02-gecos_analysis energy EHT-ETH " />
+      <item itemvalue="Python.XX03-gecos_analysis spectrum EVOH-EVOH" />
+      <item itemvalue="Python.XX03-gecos_analysis spectrum EVOH-ETH" />
+      <item itemvalue="Python.XX03-gecos_analysis spectrum ETH-ETH " />
+      <item itemvalue="Python.XX04-EVOH_exp" />
+      <item itemvalue="Python.XX05-EVOH_similarity" />
+      <item itemvalue="Python.XX-gecos_analysis 02 freq full (2)" />
+      <item itemvalue="Python.TEST2" />
+      <item itemvalue="Python.01-input" />
+      <item itemvalue="Python.Property_SP" />
+      <item itemvalue="Python.Property_ESPWFN" />
+      <item itemvalue="Python tests.Unittests in 01-test_gecosrdkit.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.01-input" />
+        <item itemvalue="Python.Property_SP" />
+        <item itemvalue="Python.Property_ESPWFN" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebbb5439-18f5-4cbd-8476-38089bdd86e9" name="Default Changelist" comment="" />
+      <created>1647883061528</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647883061528</updated>
+      <workItem from="1647883071153" duration="10389000" />
+      <workItem from="1647978738905" duration="5000" />
+      <workItem from="1648152791380" duration="79152000" />
+      <workItem from="1648464307157" duration="31770000" />
+      <workItem from="1648558277154" duration="5452000" />
+      <workItem from="1648565413404" duration="8209000" />
+      <workItem from="1648664615897" duration="23218000" />
+      <workItem from="1649078751216" duration="39551000" />
+      <workItem from="1649836130122" duration="2568000" />
+      <workItem from="1651138094679" duration="566000" />
+      <workItem from="1651138893855" duration="1049000" />
+      <workItem from="1651220434660" duration="599000" />
+      <workItem from="1651737551004" duration="1226000" />
+      <workItem from="1661787882086" duration="729000" />
+      <workItem from="1661869479590" duration="18000" />
+      <workItem from="1661949831437" duration="56753000" />
+      <workItem from="1662451999432" duration="36378000" />
+      <workItem from="1662555820127" duration="7026000" />
+      <workItem from="1662652181038" duration="13000" />
+      <workItem from="1663241614523" duration="2377000" />
+      <workItem from="1669046863648" duration="7083000" />
+      <workItem from="1669112269647" duration="1302000" />
+      <workItem from="1669621755927" duration="1345000" />
+      <workItem from="1670325309036" duration="7000" />
+      <workItem from="1672741590814" duration="4087000" />
+      <workItem from="1672747203532" duration="88144000" />
+      <workItem from="1673956199722" duration="54073000" />
+      <workItem from="1674492036977" duration="115353000" />
+      <workItem from="1675152809768" duration="12730000" />
+      <workItem from="1675274106523" duration="15795000" />
+      <workItem from="1675848373480" duration="16461000" />
+      <workItem from="1676393578662" duration="6072000" />
+      <workItem from="1676991227461" duration="2000" />
+      <workItem from="1677520553486" duration="2122000" />
+      <workItem from="1678095992933" duration="752000" />
+      <workItem from="1678176266297" duration="16000" />
+      <workItem from="1678455190061" duration="1703000" />
+      <workItem from="1678793276949" duration="1276000" />
+      <workItem from="1679650925914" duration="1950000" />
+      <workItem from="1679919725827" duration="78306000" />
+      <workItem from="1680186932364" duration="80244000" />
+      <workItem from="1680950117654" duration="56348000" />
+      <workItem from="1681144333335" duration="1660000" />
+      <workItem from="1681146185128" duration="19275000" />
+      <workItem from="1681903172791" duration="14829000" />
+      <workItem from="1682334198878" duration="58605000" />
+      <workItem from="1682622023327" duration="16629000" />
+      <workItem from="1683130985257" duration="30942000" />
+      <workItem from="1685954079901" duration="5103000" />
+      <workItem from="1686501172109" duration="15000" />
+      <workItem from="1687256253526" duration="3345000" />
+      <workItem from="1687264851906" duration="4178000" />
+      <workItem from="1687285188776" duration="318000" />
+      <workItem from="1687287648016" duration="14172000" />
+      <workItem from="1687370149801" duration="957000" />
+      <workItem from="1687372734059" duration="46189000" />
+      <workItem from="1687974896822" duration="8701000" />
+      <workItem from="1688143713617" duration="166000" />
+      <workItem from="1688637788170" duration="8352000" />
+      <workItem from="1688665511112" duration="8000" />
+      <workItem from="1689447420482" duration="3000" />
+      <workItem from="1691435827993" duration="17847000" />
+      <workItem from="1691686636550" duration="1964000" />
+      <workItem from="1691770169143" duration="43473000" />
+      <workItem from="1692387399151" duration="10000" />
+      <workItem from="1692432509932" duration="13814000" />
+      <workItem from="1693292683242" duration="94895000" />
+      <workItem from="1693899430844" duration="1354000" />
+      <workItem from="1694110770518" duration="62000" />
+      <workItem from="1694355496554" duration="3327000" />
+      <workItem from="1694589340244" duration="11236000" />
+      <workItem from="1695049906657" duration="7317000" />
+      <workItem from="1695192219425" duration="2143000" />
+      <workItem from="1695237576970" duration="35169000" />
+      <workItem from="1695746150499" duration="4000" />
+      <workItem from="1697222931556" duration="200000" />
+      <workItem from="1697303096951" duration="197000" />
+      <workItem from="1697369618656" duration="840000" />
+      <workItem from="1697374308043" duration="9374000" />
+      <workItem from="1697637744492" duration="12471000" />
+      <workItem from="1697904818049" duration="8000" />
+      <workItem from="1697918323474" duration="7590000" />
+      <workItem from="1698572805291" duration="6426000" />
+      <workItem from="1700258244200" duration="64000" />
+      <workItem from="1701354247316" duration="672000" />
+      <workItem from="1701952147032" duration="1358000" />
+      <workItem from="1702067533249" duration="636000" />
+      <workItem from="1702299623299" duration="221000" />
+      <workItem from="1702913741311" duration="2464000" />
+      <workItem from="1703245518289" duration="1942000" />
+      <workItem from="1704310447333" duration="600000" />
+      <workItem from="1704563346071" duration="837000" />
+      <workItem from="1704627412377" duration="3000" />
+      <workItem from="1704885330452" duration="65000" />
+      <workItem from="1704986152382" duration="5000" />
+      <workItem from="1705057669344" duration="5169000" />
+      <workItem from="1707161003981" duration="1465000" />
+      <workItem from="1707489675126" duration="1306000" />
+      <workItem from="1712048975371" duration="2458000" />
+      <workItem from="1712937138194" duration="12978000" />
+      <workItem from="1713259660955" duration="839000" />
+      <workItem from="1715336634296" duration="1053000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Documentos/___MIS_ESTUDIANTES___/2022-Emma_Franco_Mateos/06-G16CALC_PKA/02-OPT-LYS_DXD2_CHARGE0/Property_SP.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="1208" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Documentos/___MIS_ESTUDIANTES___/2022-Emma_Franco_Mateos/06-G16CALC_PKA/02-OPT-LYS_DXD2_CHARGE0/Property_SP.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="1209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gecos_gui/events.py</url>
+          <line>785</line>
+          <option name="timeStamp" value="1211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gecos_gui/events.py</url>
+          <line>652</line>
+          <option name="timeStamp" value="1219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gecos_gui/events_open.py</url>
+          <line>625</line>
+          <option name="timeStamp" value="1225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/ServerSlurm.py</url>
+          <line>390</line>
+          <option name="timeStamp" value="1233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/ServerSlurm.py</url>
+          <line>386</line>
+          <option name="timeStamp" value="1235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/ServerSlurm.py</url>
+          <line>434</line>
+          <option name="timeStamp" value="1237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/ServerSlurm.py</url>
+          <line>393</line>
+          <option name="timeStamp" value="1238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/ServerSlurm.py</url>
+          <line>474</line>
+          <option name="timeStamp" value="1239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/ServerSlurm.py</url>
+          <line>441</line>
+          <option name="timeStamp" value="1240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/gaussian16.py</url>
+          <line>244</line>
+          <option name="timeStamp" value="1241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/gaussian16.py</url>
+          <line>228</line>
+          <option name="timeStamp" value="1242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/gaussian16.py</url>
+          <line>225</line>
+          <option name="timeStamp" value="1243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gecos_gui/events_open.py</url>
+          <line>739</line>
+          <option name="timeStamp" value="1244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gecos_gui/events.py</url>
+          <line>198</line>
+          <option name="timeStamp" value="1247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/gecos/send_qm_conformers.py</url>
+          <line>169</line>
+          <option name="timeStamp" value="1248" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="tests">
+        <watch expression="self.mol_rdkit" />
+        <watch expression="dir(suppl)" language="Python" />
+        <watch expression="suppl.__dict__" language="Python" />
+      </configuration>
+      <configuration name="PythonConfigurationType">
+        <watch expression="v.lower()" />
+        <watch expression="values['-CONFPACK-']" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gecos2$02_gecos_analysis_02__1_.coverage" NAME="02-gecos_analysis 02 (1) Coverage Results" MODIFIED="1692206332825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/11-test_analysis2" />
+    <SUITE FILE_PATH="coverage/gecos2$02_gecos_analysis_02_exp_spectrum_Adaptative_Min_Max.coverage" NAME="02-gecos_analysis 02 exp spectrum Adaptative_Min_Max Coverage Results" MODIFIED="1683132005091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/14-test_preprocess_exp_spectrum" />
+    <SUITE FILE_PATH="coverage/gecos2$08_Test_extract_trj.coverage" NAME="01-PET_Elvaloy drago Coverage Results" MODIFIED="1673954040483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/06-PETOH2_ELVALOY_50_50_201f_from_MD" />
+    <SUITE FILE_PATH="coverage/gecos2$XX04_EVOH_exp.coverage" NAME="XX04-EVOH_exp Coverage Results" MODIFIED="1693831433157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/13-test_analysis2_freq/03-EXP_SPECTRUM" />
+    <SUITE FILE_PATH="coverage/gecos2$01_PET_Elvaloy__localhost_FREQ.coverage" NAME="01-PET_Elvaloy  localhost FREQ Coverage Results" MODIFIED="1673978630722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/06-PETOH2_ELVALOY_50_50_201f_from_MD/" />
+    <SUITE FILE_PATH="coverage/gecos2$999_Test_ESP.coverage" NAME="999-Test_ESP Coverage Results" MODIFIED="1688030384638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerTiofenoles/03-Calculations/01-MOLECULES_MODEL/10-CCSCCSCCSCCOCCOCCOCC/02-GENERATE_CONFORMERS_RDKIT/01-SP" />
+    <SUITE FILE_PATH="coverage/gecos2$02_gecos_resp_prep_help.coverage" NAME="02-gecos_resp_prep help Coverage Results" MODIFIED="1695391424361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/21-resp_test02_multiwfn" />
+    <SUITE FILE_PATH="coverage/gecos2$02_gecos_analysis_03_monomer.coverage" NAME="02-gecos_analysis 03 monomer Coverage Results" MODIFIED="1675101932281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/12-test_analysis3" />
+    <SUITE FILE_PATH="coverage/gecos2$02_gecos_analysis_02_exp_spectrum_ASLS.coverage" NAME="02-gecos_analysis 02 exp spectrum ASLS Coverage Results" MODIFIED="1682692638143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/14-test_preprocess_exp_spectrum" />
+    <SUITE FILE_PATH="coverage/gecos2$03_gecos_clustering_B.coverage" NAME="03-gecos_clustering_B Coverage Results" MODIFIED="1692109155875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/19-clustering_test01" />
+    <SUITE FILE_PATH="coverage/gecos2$11_EVOH_EVA_drago_FREQ.coverage" NAME="11-EVOH-EVA drago FREQ Coverage Results" MODIFIED="1675857881374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/11-EVOH-EVA_extractMD/01-FREQ" />
+    <SUITE FILE_PATH="coverage/gecos2$01_PET_Elvaloy__localhost.coverage" NAME="01-PET_Elvaloy  localhost Coverage Results" MODIFIED="1673861382491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/06-PETOH2_ELVALOY_50_50_201f_from_MD" />
+    <SUITE FILE_PATH="coverage/gecos2$TEST.coverage" NAME="TEST Coverage Results" MODIFIED="1692188087435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/18-EMANab_extractMD/99-ANALYSIS/01-ENERGY" />
+    <SUITE FILE_PATH="coverage/gecos2$02_gecos_analysis_02_freq_full.coverage" NAME="02-gecos_analysis 02 freq full Coverage Results" MODIFIED="1692526012790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/13-test_analysis2_freq" />
+    <SUITE FILE_PATH="coverage/gecos2$999_Test_systematic_Analysis.coverage" NAME="999-Test_systematic Analysis Coverage Results" MODIFIED="1680646822835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_ESTUDIANTES___/2023-AlbaGrandio/07-GeCOS_Test/1_4glucose/01-OPT_RESULTS_scandih_freeze_full/99-ANALYSIS/01-ENERGY" />
+    <SUITE FILE_PATH="coverage/gecos2$999_Test_systematic_Analysis_small.coverage" NAME="999-Test_systematic Analysis_small Coverage Results" MODIFIED="1680642321087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_ESTUDIANTES___/2023-AlbaGrandio/07-GeCOS_Test/1_4glucose/01-OPT_RESULTS_scandih_freeze_full/99-ANALYSIS/01-ENERGY_SMALL" />
+    <SUITE FILE_PATH="coverage/gecos2$XX02_gecos_analysis_energy.coverage" NAME="XX02-gecos_analysis energy EVOH-EVOH Coverage Results" MODIFIED="1693815215066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/13-test_analysis2_freq/01-ENERGY_EVOH_EVOH" />
+    <SUITE FILE_PATH="coverage/gecos2$999_Test_MDExtract.coverage" NAME="999-Test-MDExtract Coverage Results" MODIFIED="1688121529755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerTiofenoles/03-Calculations/01-MOLECULES_MODEL/10-CCSCCSCCSCCOCCOCCOCC/04-FROM_MD/02-GECOS_FRAME070" />
+    <SUITE FILE_PATH="coverage/gecos2$99_Test_rdkit.coverage" NAME="99-Test_rdkit Coverage Results" MODIFIED="1662393735397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../GeCos_tutorials/01-EVOH_model01_aoki/01-CONF_RDKIT_AOKI_CONF_NoQM/01-RUN" />
+    <SUITE FILE_PATH="coverage/gecos2$02_gecos_analysis_02.coverage" NAME="02-gecos_analysis 02 Coverage Results" MODIFIED="1676306046511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/11-test_analysis2" />
+    <SUITE FILE_PATH="coverage/gecos2$events_check.coverage" NAME="events_check Coverage Results" MODIFIED="1662384383735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gecos_gui" />
+    <SUITE FILE_PATH="coverage/gecos2$XX03_gecos_analysis_spectrum_ETH_ETH_.coverage" NAME="XX03-gecos_analysis spectrum ETH-ETH  Coverage Results" MODIFIED="1693825336040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/13-test_analysis2_freq/02-SPECTRUM_ETH_ETH" />
+    <SUITE FILE_PATH="coverage/gecos2$999_Test_systematic.coverage" NAME="999-Test_systematic Coverage Results" MODIFIED="1681033256444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_ESTUDIANTES___/2023-AlbaGrandio/07-GeCOS_Test/1_4glucose" />
+    <SUITE FILE_PATH="coverage/gecos2$17_onlyonetorsion_gnuplot.coverage" NAME="17-onlyonetorsion-gnuplot Coverage Results" MODIFIED="1685958977560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerTiofenoles/03-Calculations/01-MOLECULES_MODEL/01-COCCOC/03-TORS_OCCO_QM_Method01/99-ANALYSIS/02-SP_CAMB3LYP_cc-pVTZ" />
+    <SUITE FILE_PATH="coverage/gecos2$01_input.coverage" NAME="01-input Coverage Results" MODIFIED="1712954781655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/09-FolderWithPDBs" />
+    <SUITE FILE_PATH="coverage/gecos2$Browser.coverage" NAME="Browser Coverage Results" MODIFIED="1647886042714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/gui" />
+    <SUITE FILE_PATH="coverage/gecos2$Unittests_in_01_test_gecosrdkit_py.coverage" NAME="Unittests in 01-test_gecosrdkit.py Coverage Results" MODIFIED="1692292831463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/gecos2$Setup_py_install.coverage" NAME="Setup.py install Coverage Results" MODIFIED="1681903451242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/gecos2$02_Test_prop.coverage" NAME="02-Test_prop Coverage Results" MODIFIED="1649168997837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/09-test_properties" />
+    <SUITE FILE_PATH="coverage/gecos2$01_GECOS_GUI__1_.coverage" NAME="01-GECOS_GUI (1) Coverage Results" MODIFIED="1687256257282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerTiofenoles/03-Calculations/01-MOLECULES_MODEL/05-CCSCCOCC/03-TORS_OCCS_QM_Method01/01-SP" />
+    <SUITE FILE_PATH="coverage/gecos2$maingui.coverage" NAME="01-GUI Gecos Coverage Results" MODIFIED="1647941059947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gecos_gui" />
+    <SUITE FILE_PATH="coverage/gecos2$02_gecos_analysis_03_energy_test.coverage" NAME="02-gecos_analysis 03 energy test Coverage Results" MODIFIED="1694608185833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerPolyTioEthers/03-Calculations/01-MOLECULES_MODEL/10-CCSCCSCCSCCOCCOCCOCC/04-FROM_MD/05-GECOS_FRAME101" />
+    <SUITE FILE_PATH="coverage/gecos2$02_gecos_analysis_03_energy_test__1_.coverage" NAME="02-gecos_analysis 03 energy test (1) Coverage Results" MODIFIED="1694602765239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerPolyTioEthers/03-Calculations/01-MOLECULES_MODEL/10-CCSCCSCCSCCOCCOCCOCC/04-FROM_MD/05-GECOS_FRAME101" />
+    <SUITE FILE_PATH="coverage/gecos2$08_Test_extract.coverage" NAME="08-Test_extract Coverage Results" MODIFIED="1672747293788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/08-Extract_molecules" />
+    <SUITE FILE_PATH="coverage/gecos2$02_gecos_analysis_02_exp_spectrum_help.coverage" NAME="02-gecos_analysis 02 exp spectrum help Coverage Results" MODIFIED="1682691737265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/14-test_preprocess_exp_spectrum" />
+    <SUITE FILE_PATH="coverage/gecos2$02_gecos_resp_prep_multiwfn.coverage" NAME="02-gecos_resp_prep multiwfn Coverage Results" MODIFIED="1695461804443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/21-resp_test02_multiwfn" />
+    <SUITE FILE_PATH="coverage/gecos2$XX02_gecos_analysis_energy_EHT_ETH_.coverage" NAME="XX02-gecos_analysis energy EHT-ETH  Coverage Results" MODIFIED="1693505516428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/13-test_analysis2_freq/01-ENERGY_ETH_ETH" />
+    <SUITE FILE_PATH="coverage/gecos2$TEST2.coverage" NAME="TEST2 Coverage Results" MODIFIED="1705068089428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerPolyTioEthers/03-Calculations/01-MOLECULES_MODEL/15-DVE-TRIMER/04-FROM_MD/02-GECOS_FRAME350" />
+    <SUITE FILE_PATH="coverage/gecos2$XX05_EVOH_similarity.coverage" NAME="XX05-EVOH_similarity Coverage Results" MODIFIED="1693825062661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/13-test_analysis2_freq/04-COMPARE_EXP_SIM" />
+    <SUITE FILE_PATH="coverage/gecos2$XX02_gecos_analysis_energy_EVOH_ETH.coverage" NAME="XX02-gecos_analysis energy EVOH-ETH Coverage Results" MODIFIED="1693583936528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/13-test_analysis2_freq/01-ENERGY_EVOH_ETH" />
+    <SUITE FILE_PATH="coverage/gecos2$02_gecos_resp_prep.coverage" NAME="02-gecos_resp_prep Coverage Results" MODIFIED="1695460206561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/18-resp_test01" />
+    <SUITE FILE_PATH="coverage/gecos2$03_gecos_clustering_.coverage" NAME="03-gecos_clustering  Coverage Results" MODIFIED="1691942193542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/19-clustering_test01" />
+    <SUITE FILE_PATH="coverage/gecos2$01_GECOS_GUI.coverage" NAME="01-GECOS_GUI Coverage Results" MODIFIED="1712955801697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2024-Grasa_Cyclodextrines/05-MS/Grasa_Files/Documents/07-DFT_OPT_COM22_trans_G16" />
+    <SUITE FILE_PATH="coverage/gecos2$02_get_summary_energy.coverage" NAME="02-get_summary_energy Coverage Results" MODIFIED="1695057539629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerPolyTioEthers/03-Calculations/01-MOLECULES_MODEL/10-CCSCCSCCSCCOCCOCCOCC/04-FROM_MD/99-ANALYSIS/04-MOVE_ALLIGN_MOL2" />
+    <SUITE FILE_PATH="coverage/gecos2$999_Test_systematic__1_.coverage" NAME="999-Test_systematic (1) Coverage Results" MODIFIED="1687368028301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerTiofenoles/03-Calculations/01-MOLECULES_MODEL/01-COCCOC/04-TORS_TTT_QM_Method01" />
+    <SUITE FILE_PATH="coverage/gecos2$11_EVOH_EVA_drago.coverage" NAME="11-EVOH-EVA drago Coverage Results" MODIFIED="1675947755328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_PETICIONES_PROYECTOS___/2019-Proyecto-PN-GenCon/13-Resultados/2022-Spectra_IR/11-EVOH-EVA_extractMD" />
+    <SUITE FILE_PATH="coverage/gecos2$02_gecos_analysis_02_freq.coverage" NAME="02-gecos_analysis 02 freq Coverage Results" MODIFIED="1695239305096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/13-test_analysis2_freq" />
+    <SUITE FILE_PATH="coverage/gecos2$02_gecos_analysis_02_LORENTZ_COMPARE.coverage" NAME="02-gecos_analysis 02 LORENTZ COMPARE Coverage Results" MODIFIED="1676400134696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/15-Tests_Lorentzian" />
+    <SUITE FILE_PATH="coverage/gecos2$XX03_gecos_analysis_spectrum_EVOH_ETH.coverage" NAME="XX03-gecos_analysis spectrum EVOH-ETH Coverage Results" MODIFIED="1693825257133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/13-test_analysis2_freq/02-SPECTRUM_EVOH_ETH" />
+    <SUITE FILE_PATH="coverage/gecos2$99_Test_rdkit__1_.coverage" NAME="999-Test_systematic Coverage Results" MODIFIED="1680160435490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_ESTUDIANTES___/2023-AlbaGrandio/07-GeCOS_Test/1_4glucose" />
+    <SUITE FILE_PATH="coverage/gecos2$Pruebas.coverage" NAME="Pruebas Coverage Results" MODIFIED="1694593660514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerPolyTioEthers/03-Calculations/01-MOLECULES_MODEL/10-CCSCCSCCSCCOCCOCCOCC/02-GENERATE_CONFORMERS_RDKIT/02-SP-LBASISSET" />
+    <SUITE FILE_PATH="coverage/gecos2$998_gecos_cluster_conf.coverage" NAME="998-gecos_cluster_conf Coverage Results" MODIFIED="1683405692967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/17-test_g16_freq_cluster" />
+    <SUITE FILE_PATH="coverage/gecos2$08_Test_extract_compare.coverage" NAME="08-Test_extract_compare Coverage Results" MODIFIED="1662551111629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/examples/04-IsoP_localhost_openbabel_pm3" />
+    <SUITE FILE_PATH="coverage/gecos2$XX03_gecos_analysis_spectrum_EVOH_EVOH.coverage" NAME="XX03-gecos_analysis spectrum EVOH-EVOH Coverage Results" MODIFIED="1693824874449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/13-test_analysis2_freq/02-SPECTRUM_EVOH_EVOH" />
+    <SUITE FILE_PATH="coverage/gecos2$02_gecos_analysis_02_exp_spectrum.coverage" NAME="16-grid-alba-gnuplot Coverage Results" MODIFIED="1682605403843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/16-test_grid_dihedrals" />
+    <SUITE FILE_PATH="coverage/gecos2$02_gecos_analysis_01.coverage" NAME="02-gecos_analysis 01 Coverage Results" MODIFIED="1675023286498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/10-test_analysis" />
+    <SUITE FILE_PATH="coverage/gecos2$03_Test_prop_ESPWFN.coverage" NAME="03-Test_prop_ESPWFN Coverage Results" MODIFIED="1649182792093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/09-test_properties" />
+    <SUITE FILE_PATH="coverage/gecos2$02_gecos_analysis_02_close_contacts.coverage" NAME="02-gecos_analysis 02 close_contacts Coverage Results" MODIFIED="1680507342402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/11-test_analysis2" />
+    <SUITE FILE_PATH="coverage/gecos2$a.coverage" NAME="a Coverage Results" MODIFIED="1673966443299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gecos_gui" />
+    <SUITE FILE_PATH="coverage/gecos2$999_Test_rdkit.coverage" NAME="999-Test_rdkit Coverage Results" MODIFIED="1681148560844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_ESTUDIANTES___/2023-AlbaGrandio/07-GeCOS_Test/1_4glucose" />
+    <SUITE FILE_PATH="coverage/gecos2$01_GUI_Gecos.coverage" NAME="01-GUI Gecos Coverage Results" MODIFIED="1648734570251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gecos_gui" />
+    <SUITE FILE_PATH="coverage/gecos2$02_gecos_analysis_02_exp_spectrum_.coverage" NAME="02-gecos_analysis 02 exp spectrum  Coverage Results" MODIFIED="1682679316219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/14-test_preprocess_exp_spectrum" />
+    <SUITE FILE_PATH="coverage/gecos2$Property_ESPWFN__1_.coverage" NAME="Property_ESPWFN (1) Coverage Results" MODIFIED="1695293201477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerPolyTioEthers/03-Calculations/01-MOLECULES_MODEL/10-CCSCCSCCSCCOCCOCCOCC/04-FROM_MD/06-MV_ALL_ALLIGN_MOL2/02-SP-LBASISSET" />
+    <SUITE FILE_PATH="coverage/gecos2$04_Test_dimer.coverage" NAME="04-Test_dimer Coverage Results" MODIFIED="1661952175999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../GeCos_tutorials/C002_EVOHDimer_aoki/01-CONF_DFTB_AOKI_FREQ_DIMER" />
+    <SUITE FILE_PATH="coverage/gecos2$03_gecos_clustering__h.coverage" NAME="03-gecos_clustering -h Coverage Results" MODIFIED="1691511338157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/18-resp_test01" />
+    <SUITE FILE_PATH="coverage/gecos2$02_gecos_analysis_02_exp_spectrum_MIXTURE_MODEL.coverage" NAME="02-gecos_analysis 02 exp spectrum MIXTURE_MODEL Coverage Results" MODIFIED="1682693262265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/14-test_preprocess_exp_spectrum" />
+    <SUITE FILE_PATH="coverage/gecos2$02_gecos_analysis_02_freq_analysis.coverage" NAME="02-gecos_analysis 02 freq analysis Coverage Results" MODIFIED="1692433891658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/13-test_analysis2_freq" />
+    <SUITE FILE_PATH="coverage/gecos2$XX01_gecos_analysis_02__h.coverage" NAME="XX01-gecos_analysis 02 -h Coverage Results" MODIFIED="1693469796307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/13-test_analysis2_freq" />
+    <SUITE FILE_PATH="coverage/gecos2$Property_SP.coverage" NAME="Property_SP Coverage Results" MODIFIED="1697815337343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_ESTUDIANTES___/2022-Emma_Franco_Mateos/06-G16CALC_PKA/02-OPT-LYS_DXD2_CHARGE0" />
+    <SUITE FILE_PATH="coverage/gecos2$Property_ESPWFN.coverage" NAME="Property_ESPWFN Coverage Results" MODIFIED="1695322112289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documentos/___MIS_PROYECTOS___/2023-AMullerPolyTioEthers/03-Calculations/01-MOLECULES_MODEL/10-CCSCCSCCSCCOCCOCCOCC/04-FROM_MD/06-MV_ALL_ALLIGN_MOL2/02-SP-LBASISSET" />
+  </component>
+</project>
